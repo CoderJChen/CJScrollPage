@@ -9,7 +9,7 @@
 #import "WAISegmentBar.h"
 #import "WAISegmentRLButton.h"
 #import "WAIMenuBarShowDetailVC.h"
-#import "ScrollPageHeader.h"
+#import "WAIScrollPageHeader.h"
 
 #define WAIMinMargin 30
 #define WAIShowMoreBtnW (self.bounds.size.height + 30)

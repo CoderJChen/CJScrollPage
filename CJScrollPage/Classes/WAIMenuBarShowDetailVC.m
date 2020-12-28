@@ -8,7 +8,7 @@
 
 #import "WAIMenuBarShowDetailVC.h"
 #import "WAIMenuCell.h"
-#import "ScrollPageHeader.h"
+#import "WAIScrollPageHeader.h"
 
 #define WAIRowCount 3
 #define WAIMargin 6
