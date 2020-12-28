@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "ScrollPageHeader.h"
 #import "NSString+SegmentModelProtocol.h"
 #import "UIView+Extention.h"
 #import "WAIMenuBarShowDetailVC.h"
