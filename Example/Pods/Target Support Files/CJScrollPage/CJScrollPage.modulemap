@@ -1,0 +1,6 @@
+framework module CJScrollPage {
+  umbrella header "CJScrollPage-umbrella.h"
+
+  export *
+  module * { export * }
+}

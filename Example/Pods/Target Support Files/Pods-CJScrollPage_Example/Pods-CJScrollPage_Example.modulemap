@@ -1,0 +1,6 @@
+framework module Pods_CJScrollPage_Example {
+  umbrella header "Pods-CJScrollPage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
