@@ -10,6 +10,16 @@
 #endif
 #endif
 
+#import "ScrollPageHeader.h"
+#import "NSString+SegmentModelProtocol.h"
+#import "UIView+Extention.h"
+#import "WAIMenuBarShowDetailVC.h"
+#import "WAIMenuCell.h"
+#import "WAISegmentBar.h"
+#import "WAISegmentBarConfig.h"
+#import "WAISegmentModelProtocol.h"
+#import "WAISegmentRLButton.h"
+#import "WAISegmentViewController.h"
 
 FOUNDATION_EXPORT double CJScrollPageVersionNumber;
 FOUNDATION_EXPORT const unsigned char CJScrollPageVersionString[];

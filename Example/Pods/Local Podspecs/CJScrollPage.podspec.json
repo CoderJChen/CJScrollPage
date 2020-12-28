@@ -1,9 +1,9 @@
 {
   "name": "CJScrollPage",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of CJScrollPage.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/coderCJ/CJScrollPage",
+  "description": "页面轮播选择器",
+  "homepage": "https://github.com/CoderJChen/CJScrollPage",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "coderCJ": "zhiyi_eric@163.com"
   },
   "source": {
-    "git": "https://github.com/coderCJ/CJScrollPage.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/CoderJChen/CJScrollPage.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
