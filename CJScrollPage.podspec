@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJScrollPage'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'A short description of CJScrollPage.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'CJScrollPage' => ['CJScrollPage/Assets/*.png']
   # }
 
-   s.public_header_files = 'CJScrollPage/Classes/**/*.h'
+#   s.public_header_files = 'CJScrollPage/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -32,6 +32,7 @@
 		DBE346F14894B385EB2E18398C2ADAD4 /* WAIMenuBarShowDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = DABAA33B01D83CB9185DD883D5E8534F /* WAIMenuBarShowDetailVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E12E4F77F870926BE2BE326238ACA903 /* WAISegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B24A78216FB6CBA3A0D1171EB8D1E0 /* WAISegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAB99707079D9894ED28920599321263 /* CJScrollPage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA11D45211D0C5F001AEB573DA208B2 /* CJScrollPage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55E3864259AC1570069D462 /* WAIScrollPageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F55E3863259AC1570069D462 /* WAIScrollPageHeader.h */; };
 		F8E4CF4BAEE585E87E262B8967A67842 /* WAISegmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EC8483182C73188DC59553CFE6964E /* WAISegmentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8F62823AC14F602D5DBA8DE87FA95D1 /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 3374321AEC52EAB6B675404EA070853C /* UIView+Extention.m */; };
 /* End PBXBuildFile section */
@@ -103,7 +104,7 @@
 		DD7CEDB7AE7B2426965B8D360D62E9EC /* Pods-CJScrollPage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E56E9C9540D87F1DEE5DF0CBCF4D9A2C /* CJScrollPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.debug.xcconfig; sourceTree = "<group>"; };
 		F3B24A78216FB6CBA3A0D1171EB8D1E0 /* WAISegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentBar.h; path = CJScrollPage/Classes/WAISegmentBar.h; sourceTree = "<group>"; };
-		F5B6516E2599E134005C6A2B /* WAIScrollPageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAIScrollPageHeader.h; sourceTree = "<group>"; };
+		F55E3863259AC1570069D462 /* WAIScrollPageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAIScrollPageHeader.h; path = CJScrollPage/Classes/WAIScrollPageHeader.h; sourceTree = "<group>"; };
 		FB0B8E874CA6F52559E2B4D0D20B2469 /* CJScrollPage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJScrollPage.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,7 +139,7 @@
 		13339F7C5A830DC4EBBF16F3882A7571 /* CJScrollPage */ = {
 			isa = PBXGroup;
 			children = (
-				F5B6516E2599E134005C6A2B /* WAIScrollPageHeader.h */,
+				F55E3863259AC1570069D462 /* WAIScrollPageHeader.h */,
 				D70A3DC8B7A499456BE187C0D7E734C4 /* NSString+SegmentModelProtocol.h */,
 				88087BCDDE71108D52CBAF1883CE89E1 /* NSString+SegmentModelProtocol.m */,
 				A7AB5EFF8AA23DFD1AE1F42BDB2A55CC /* UIView+Extention.h */,
@@ -304,6 +305,7 @@
 				AE5C9DED7EDC84EC48F6BD45B15F0C56 /* UIView+Extention.h in Headers */,
 				DBE346F14894B385EB2E18398C2ADAD4 /* WAIMenuBarShowDetailVC.h in Headers */,
 				04D506DF36A7C8B9A0D680B6AC78EBAB /* WAIMenuCell.h in Headers */,
+				F55E3864259AC1570069D462 /* WAIScrollPageHeader.h in Headers */,
 				E12E4F77F870926BE2BE326238ACA903 /* WAISegmentBar.h in Headers */,
 				1E71B4A3D0BDEEBA1F4BBEE2B86A2786 /* WAISegmentBarConfig.h in Headers */,
 				9D999D6B16FE16848972C9FE3BD42094 /* WAISegmentModelProtocol.h in Headers */,
