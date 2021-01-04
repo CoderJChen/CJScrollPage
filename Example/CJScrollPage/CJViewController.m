@@ -8,7 +8,7 @@
 
 #import "CJViewController.h"
 #import <CJScrollPage/WAISegmentBar.h>
-#import <CJScrollPage/UIView+Extention.h>
+#import <CJScrollPage/UIView+WAIExtension.h>
 @interface CJViewController ()<WAISegmentBarDelegate,UIScrollViewDelegate>
 
 @property (nonatomic,strong) WAISegmentBar * segmentBar;

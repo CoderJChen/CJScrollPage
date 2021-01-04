@@ -51,7 +51,7 @@
 }
 -(UIView *)indicatorView{
     if (!_indicatorView) {
-        UIView * indicatorView = [[UIView alloc]initWithFrame:CGRectMake(0, self.height - self.config.indicatorHeight, 0, self.config.indicatorHeight)];
+        UIView * indicatorView = [[UIView alloc]initWithFrame:CGRectMake(0, self.WAI_height - self.config.indicatorHeight, 0, self.config.indicatorHeight)];
         indicatorView.backgroundColor = self.config.indicatorColor;
         [self.contentView addSubview:indicatorView];
         _indicatorView = indicatorView;
@@ -66,14 +66,14 @@
         _showDetailVC.collectionView.delegate = self;
     }
     if (_showDetailVC.collectionView.superview != self.superview) {
-        _showDetailVC.collectionView.frame = CGRectMake(0, CGRectGetMaxY(self.frame), self.width, 0);
+        _showDetailVC.collectionView.frame = CGRectMake(0, CGRectGetMaxY(self.frame), self.WAI_width, 0);
         [self.superview addSubview:_showDetailVC.collectionView];
     }
     return _showDetailVC;
 }
 -(UIView *)coverView{
     if (!_coverView) {
-        _coverView = [[UIView alloc]initWithFrame:CGRectMake(0, self.y + self.height, self.width, 0)];
+        _coverView = [[UIView alloc]initWithFrame:CGRectMake(0, self.WAI_y + self.WAI_height, self.WAI_width, 0)];
         _coverView.backgroundColor = [UIColor colorWithRed:55 / 255. green:55 / 255. blue:55 / 255. alpha:0.4];
         UITapGestureRecognizer * gestR = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideDetailPane)];
         [_coverView addGestureRecognizer:gestR];
@@ -134,7 +134,7 @@
     _config = config;
     
     self.indicatorView.backgroundColor = config.indicatorColor;
-    self.indicatorView.height = config.indicatorHeight;
+    self.indicatorView.WAI_height = config.indicatorHeight;
     self.backgroundColor = config.segmentBarBackColor;
         for (UIButton * btn in self.itemBtns) {
             [btn setTitleColor:self.config.itemNormalColor forState:UIControlStateNormal];
@@ -155,7 +155,7 @@
     _segmentMs = segmentMs;
     if (self.config.isShowMore) {
         self.showDetailVC.items = segmentMs;
-        self.showDetailVC.collectionView.height = 0;
+        self.showDetailVC.collectionView.WAI_height = 0;
     }
     [self.itemBtns makeObjectsPerformSelector:@selector(removeFromSuperview)];
     self.itemBtns = nil;
@@ -220,12 +220,12 @@
     self.lastBtn.selected = NO;
     self.lastBtn.titleLabel.font = self.config.itemSelectFont;
     [self.lastBtn sizeToFit];
-    self.lastBtn.height = self.contentView.height - self.config.indicatorHeight;
+    self.lastBtn.WAI_height = self.contentView.WAI_height - self.config.indicatorHeight;
     
     btn.selected = YES;
     btn.titleLabel.font = self.config.itemNormalFont;
     [btn sizeToFit];
-    btn.height = self.contentView.height - self.config.indicatorHeight;
+    btn.WAI_height = self.contentView.WAI_height - self.config.indicatorHeight;
     self.lastBtn = btn;
     
     if (self.config.isShowMore) {
@@ -243,17 +243,17 @@
                                     };
         CGSize size = [text sizeWithAttributes:fontDict];
         
-        self.indicatorView.y = self.contentView.height - self.config.indicatorHeight;
-        self.indicatorView.width = size.width + self.config.indicatorExtraW;
-        self.indicatorView.centerX = btn.centerX;
+        self.indicatorView.WAI_y = self.contentView.WAI_height - self.config.indicatorHeight;
+        self.indicatorView.WAI_width = size.width + self.config.indicatorExtraW;
+        self.indicatorView.WAI_centerX = btn.WAI_centerX;
     }];
     
-    CGFloat scrollX = btn.centerX - self.contentView.width * 0.5;
+    CGFloat scrollX = btn.WAI_centerX - self.contentView.WAI_width * 0.5;
     if (scrollX < 0) {
         scrollX = 0;
     }
-    if (scrollX > self.contentView.contentSize.width - self.contentView.width) {
-        scrollX = self.contentView.contentSize.width - self.contentView.width;
+    if (scrollX > self.contentView.contentSize.width - self.contentView.WAI_width) {
+        scrollX = self.contentView.contentSize.width - self.contentView.WAI_width;
     }
     [self.contentView setContentOffset:CGPointMake(scrollX, 0) animated:YES];
 }
@@ -270,8 +270,8 @@
 - (void)hideDetailPane{
     self.showMoreBtn.selected = NO;
     [UIView animateWithDuration:0.2 animations:^{
-        self.showDetailVC.collectionView.height = 0;
-        self.coverView.height = 0;
+        self.showDetailVC.collectionView.WAI_height = 0;
+        self.coverView.WAI_height = 0;
     } completion:^(BOOL finished) {
         self.coverView.hidden = YES;
         self.showDetailVC.collectionView.hidden = YES;
@@ -282,8 +282,8 @@
     self.showDetailVC.collectionView.hidden = NO;
     self.coverView.hidden = NO;
     [UIView animateWithDuration:0.2 animations:^{
-        self.showDetailVC.collectionView.height = self.showDetailVC.expectedHeight;
-        self.coverView.height = WAIScreenHeight;
+        self.showDetailVC.collectionView.WAI_height = self.showDetailVC.expectedHeight;
+        self.coverView.WAI_height = WAIScreenHeight;
     }];
 }
 - (void)showOrHide:(WAISegmentRLButton *)btn{
@@ -299,10 +299,10 @@
     self.contentView.frame = self.bounds;
     if (!self.config.isShowMore) {
         self.contentView.frame = self.bounds;
-        self.showMoreBtn.width = -1;
+        self.showMoreBtn.WAI_width = -1;
     }else{
-        self.contentView.frame = CGRectMake(0, 0, self.width - WAIShowMoreBtnW, self.height);
-        self.showMoreBtn.frame = CGRectMake(self.width - WAIShowMoreBtnW, 0, WAIShowMoreBtnW, self.height);
+        self.contentView.frame = CGRectMake(0, 0, self.WAI_width - WAIShowMoreBtnW, self.WAI_height);
+        self.showMoreBtn.frame = CGRectMake(self.WAI_width - WAIShowMoreBtnW, 0, WAIShowMoreBtnW, self.WAI_height);
     }
 //    更多分割线设置位置
     NSString * text = self.showMoreBtn.titleLabel.text;
@@ -310,27 +310,27 @@
                                 NSFontAttributeName:self.showMoreBtn.titleLabel.font
                                 };
     CGSize size = [text sizeWithAttributes:attrDict];
-    self.showMoreBtn.subviews.lastObject.height = size.height + 6;
-    self.showMoreBtn.subviews.lastObject.centerY = self.showMoreBtn.height * 0.5;
+    self.showMoreBtn.subviews.lastObject.WAI_height = size.height + 6;
+    self.showMoreBtn.subviews.lastObject.WAI_centerY = self.showMoreBtn.WAI_height * 0.5;
     
     CGFloat totalBtnWidth = 0;
     for (UIButton * btn in self.itemBtns) {
         [btn sizeToFit];
-        totalBtnWidth += btn.width;
+        totalBtnWidth += btn.WAI_width;
     }
-    CGFloat caculateMargin = (self.contentView.width - totalBtnWidth) / (self.segmentMs.count + 1);
+    CGFloat caculateMargin = (self.contentView.WAI_width - totalBtnWidth) / (self.segmentMs.count + 1);
     
     caculateMargin = caculateMargin < self.config.limitMargin ? self.config.limitMargin : caculateMargin;
     
     CGFloat btnY = 0;
-    CGFloat btnHeight = self.contentView.height - self.config.indicatorHeight;
+    CGFloat btnHeight = self.contentView.WAI_height - self.config.indicatorHeight;
     UIButton * lastButton;
     
     for (UIButton * btn in self.itemBtns) {
         CGFloat btnX = CGRectGetMaxX(lastButton.frame) + caculateMargin;
-        btn.y = btnY;
-        btn.x = btnX;
-        btn.height = btnHeight;
+        btn.WAI_y = btnY;
+        btn.WAI_x = btnX;
+        btn.WAI_height = btnHeight;
         lastButton = btn;
     }
     
@@ -340,10 +340,10 @@
     }
     
     UIButton * btn = self.itemBtns[self.selectIndex];
-    self.indicatorView.width = btn.width + self.config.indicatorExtraW * 2;
-    self.indicatorView.centerX = btn.centerX;
-    self.indicatorView.height = self.config.indicatorHeight;
-    self.indicatorView.y = self.contentView.height - self.indicatorView.height;
+    self.indicatorView.WAI_width = btn.WAI_width + self.config.indicatorExtraW * 2;
+    self.indicatorView.WAI_centerX = btn.WAI_centerX;
+    self.indicatorView.WAI_height = self.config.indicatorHeight;
+    self.indicatorView.WAI_y = self.contentView.WAI_height - self.indicatorView.WAI_height;
     
 }
 #pragma mark <UICollectionViewDelegate>

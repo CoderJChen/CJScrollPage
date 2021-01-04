@@ -11,9 +11,10 @@
 #endif
 
 #import "NSString+SegmentModelProtocol.h"
-#import "UIView+Extention.h"
+#import "UIView+WAIExtension.h"
 #import "WAIMenuBarShowDetailVC.h"
 #import "WAIMenuCell.h"
+#import "WAIScrollPageHeader.h"
 #import "WAISegmentBar.h"
 #import "WAISegmentBarConfig.h"
 #import "WAISegmentModelProtocol.h"

@@ -7,7 +7,8 @@
 //
 
 #import "WAISegmentViewController.h"
-#import "UIView+Extention.h"
+#import "WAIScrollPageHeader.h"
+
 @interface WAISegmentViewController ()<WAISegmentBarDelegate,UIScrollViewDelegate>
 @property (nonatomic,weak) UIScrollView * contentView;
 @property(assign,nonatomic) CGFloat  segmentTopH;
@@ -50,7 +51,7 @@
     for (UIViewController * vc in childVCs) {
         [self addChildViewController:vc];
     }
-    self.contentView.contentSize = CGSizeMake(items.count * self.view.width, 0);
+    self.contentView.contentSize = CGSizeMake(items.count * self.view.WAI_width, 0);
     self.segmentBar.selectIndex = 0;
     self.segmentTopH = top;
     self.segmentH = height;
@@ -60,10 +61,10 @@
         return;
     }
     UIViewController * vc = self.childViewControllers[index];
-    vc.view.frame = CGRectMake(index * self.contentView.width, 0, self.contentView.width, self.contentView.height);
+    vc.view.frame = CGRectMake(index * self.contentView.WAI_width, 0, self.contentView.WAI_width, self.contentView.WAI_height);
     [self.contentView addSubview:vc.view];
     
-    [self.contentView setContentOffset:CGPointMake(index * self.view.width, 0) animated:YES];
+    [self.contentView setContentOffset:CGPointMake(index * self.view.WAI_width, 0) animated:YES];
 }
 #pragma mark - segmentDelegate
 -(void)segmentBar:(WAISegmentBar *)segmentBar didSelectedWithIndex:(NSInteger)toIndex fromIndex:(NSInteger)fromIndex{
@@ -73,24 +74,24 @@
 }
 #pragma mark - scrollviewDelegate
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    NSInteger index = self.contentView.contentOffset.x/self.contentView.width;
+    NSInteger index = self.contentView.contentOffset.x/self.contentView.WAI_width;
     self.segmentBar.selectIndex = index;
 }
 -(void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
     if (self.segmentBar.superview == self.view) {
-        self.segmentBar.frame = CGRectMake(0, self.segmentTopH>=0?self.segmentTopH:60, self.view.width, self.segmentH>0?self.segmentH:35);
+        self.segmentBar.frame = CGRectMake(0, self.segmentTopH>=0?self.segmentTopH:60, self.view.WAI_width, self.segmentH>0?self.segmentH:35);
         NSLog(@"%@===%f",NSStringFromCGRect(self.segmentBar.frame),self.segmentH>0?self.segmentH:35);
-        CGFloat contentViewY = self.segmentBar.y + self.segmentBar.height;
-        CGRect contentFrame = CGRectMake(0, contentViewY, self.view.width, self.view.height - contentViewY);
+        CGFloat contentViewY = self.segmentBar.WAI_y + self.segmentBar.WAI_height;
+        CGRect contentFrame = CGRectMake(0, contentViewY, self.view.WAI_width, self.view.WAI_height - contentViewY);
         self.contentView.frame = contentFrame;
-        self.contentView.contentSize = CGSizeMake(self.childViewControllers.count * self.view.width, 0);
+        self.contentView.contentSize = CGSizeMake(self.childViewControllers.count * self.view.WAI_width, 0);
         
         return;
     }
-    CGRect contentFrame = CGRectMake(0, 0,self.view.width,self.view.height);
+    CGRect contentFrame = CGRectMake(0, 0,self.view.WAI_width,self.view.WAI_height);
     self.contentView.frame = contentFrame;
-    self.contentView.contentSize = CGSizeMake(self.childViewControllers.count * self.view.width, 0);
+    self.contentView.contentSize = CGSizeMake(self.childViewControllers.count * self.view.WAI_width, 0);
     
     self.segmentBar.selectIndex = self.segmentBar.selectIndex;
 }

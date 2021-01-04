@@ -8,7 +8,7 @@
 #ifndef WAIScrollPageHeader_h
 #define WAIScrollPageHeader_h
 
-#import "UIView+Extention.h"
+#import "UIView+WAIExtension.h"
 
 #define WAIScreenWidth   [UIScreen mainScreen].bounds.size.width
 #define WAIScreenHeight  [UIScreen mainScreen].bounds.size.height

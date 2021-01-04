@@ -27,7 +27,7 @@ static NSString * const reuseIdentifier = @"menuCell";
     
     NSInteger rows = (_items.count + (WAIRowCount - 1))/WAIRowCount;
     CGFloat height = rows * (WAICellH + WAIMargin);
-    self.collectionView.height = height;
+    self.collectionView.WAI_height = height;
     self.expectedHeight = height;
     [self.collectionView reloadData];
 }
