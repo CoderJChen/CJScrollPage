@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04DF296528B6BC67780BD91C6D27D443 /* WAISegmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6AFFE9340AF56831E492E68A528DAE /* WAISegmentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003044E7304DA6FF7467D63062006FD0 /* WAIScrollPageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27099D2FD2B96D317FE0093D4E0B2183 /* WAIScrollPageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D27541333102BA06D646ADCB8D85B5 /* CJScrollPage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9635883A3DC17A38975263B0275200A5 /* CJScrollPage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		026DE94FF5A4E4A9E9F078601B9AB786 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		05A1C9CC2B56C2AAC43E557B450D3CE0 /* WAISegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8243EDDD08988CD77225F861F3AAA /* WAISegmentBar.m */; };
 		08AA7862AEA41B2182EADBE841B03D7A /* Pods-CJScrollPage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214939EB76E8620F6F7A1C77E152C26 /* Pods-CJScrollPage_Example-dummy.m */; };
-		0AAB6E70B98586F34D6CDFD8DF904B59 /* WAIScrollPageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ADA1049C8B6C867811A3E5FCD42967D /* WAIScrollPageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26708CD5C2BD158F08B463C015B0DB25 /* WAIMenuBarShowDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6134726248A471E54D8C6DF4BDF9BEDC /* WAIMenuBarShowDetailVC.m */; };
+		16FBD7049AD28520F0EF4322A0BDAD1D /* WAISegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303726B88717155DC5F3DDB18AD6A69 /* WAISegmentBarConfig.m */; };
+		2BE867A2D9BB65EF8F6586A5BB9BE2FD /* WAIMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B388024BB1BF0DE341F7605E2BA56E41 /* WAIMenuCell.m */; };
 		2E9B368781370BD1ADF38EEA93480ED8 /* Pods-CJScrollPage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A191991BF13606DED954C7025B54A /* Pods-CJScrollPage_Tests-dummy.m */; };
+		2ECA7DF265FFF22A936F782B1C69F8E2 /* WAIMenuCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3B22253CD04673E118D86225D7F3F25D /* WAIMenuCell.xib */; };
 		45257DB3021EC0ECF1A2D7CD5AFCD79D /* Pods-CJScrollPage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C53F36CB64B39D6FDBE9ED0C9E66485C /* Pods-CJScrollPage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53E547386C750EE232F19A8806017617 /* WAISegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E5917A5EB4242C51A316F2AEFA7468 /* WAISegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59CBEE1310F92D0E7BA79519A41C267B /* WAISegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 58195DB6A6018D326AED15F6ED68CFF8 /* WAISegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80B9234B51533691BCC146E855FB8160 /* NSString+SegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 730173765A72654C00B0893BA761C5EE /* NSString+SegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83FCCE1E9DFA956271E19EF0A1B2BE69 /* WAIMenuBarShowDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE7BFAD150E2E288B047B0E5919F481 /* WAIMenuBarShowDetailVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92837CABEBCF882269E5AD8E129A6A9C /* WAIMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 191915E74AFC15AE5B0766CAED7E9B0B /* WAIMenuCell.m */; };
-		9725DC5E99CDAA4419EC558CADF8F2DC /* CJScrollPage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 421965090EDE732CB3CEFBF0043C6034 /* CJScrollPage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F50892E6A0B34FB4872CFADCC592036 /* WAISegmentRLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 374466E0D4F6E08EDB2885A619803D2B /* WAISegmentRLButton.m */; };
-		A40ECD402459B601CCA7F0731AA2CB25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		46428D65AEA5E38334FC6B57BE32D897 /* NSString+SegmentModelProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B5FF8C2FF3E4C4F56BDBC5353EB96 /* NSString+SegmentModelProtocol.m */; };
+		50BEB36713A6D2A10A1B14871EC10076 /* WAIMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F6A7FC7BF01FCD543ED15C0BA24BD9 /* WAIMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56611EF6C7A441E3F699DFBB08FFC0F7 /* WAISegmentRLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83666F575C45CC3912F5189154BB4314 /* WAISegmentRLButton.m */; };
+		5EC5FFC0DD96EF08CA84F55AAA76F3B0 /* CJScrollPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 940F0A7F574D2CD745E7F3BE3C1F290F /* CJScrollPage-dummy.m */; };
+		69179FC37C02493564CF385FED3F6967 /* WAIMenuBarShowDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 7420A282ABF10CE45AFB4B3BE5C3518A /* WAIMenuBarShowDetailVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F1C0B970466F22399B17158DF1BDB45 /* WAISegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2D3C99F2E9A3F2F7439CC0B93D1523 /* WAISegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9591D28396725C2262F40D014454D317 /* WAISegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F1D5ED72AAF868431E096929C29D70 /* WAISegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AE09B06702BEFA400297E92452FCC26 /* WAISegmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F56957E20419B9F915AAB522BC3DE0 /* WAISegmentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2C1E43822D38FEE0092112040B4720C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BAF023C3420B0ABDFCD6A2FB20F74306 /* WAISegmentRLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCBDD93DEE4AD2309BA973C66D9119B /* WAISegmentRLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD1432198F525BEEE79CE379FC07B3C0 /* Pods-CJScrollPage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0D3D5E8D67A61B7658627014F5DFE4 /* Pods-CJScrollPage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C13CD0BC9825452CE2D8305CFBF971B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CCE1401889D5773CA3A0BD57466F8A7A /* WAIMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AADA6BB690D702516EC4D683676B0F2 /* WAIMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE666EACC6CBB9D6099BD36B2D497F8F /* WAISegmentRLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8A4AD4D2448C5A7C937721F9E5CD20 /* WAISegmentRLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC81181A28C2CB341B7CEE7B01AE9456 /* WAISegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C17826E20D944C1A9252E924F97C712 /* WAISegmentViewController.m */; };
-		E047CBE21260E7D0F37893A5D2DB2C1F /* WAISegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A7671DDBB9344F517BBEF8B8D73705 /* WAISegmentBar.m */; };
-		E489B8A10C6A2DE4512A0C14CF9C3B9A /* WAIMenuCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0C33B4807F9ECEF4F06F7E0AF548E7E9 /* WAIMenuCell.xib */; };
-		E949CF18496F29F8723D8CA31342844D /* WAISegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C39275DE6989680D0FAD0B0AA4A3F0B2 /* WAISegmentBarConfig.m */; };
-		EDB8B8FD721D740EEF898AB126421B59 /* WAISegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52DA196D438B6E02F3CF9AABD47D02 /* WAISegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F50ADE2B25A2AB75000E9DD4 /* UIView+WAIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F50ADE2925A2AB75000E9DD4 /* UIView+WAIExtension.h */; };
-		F50ADE2C25A2AB75000E9DD4 /* UIView+WAIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F50ADE2A25A2AB75000E9DD4 /* UIView+WAIExtension.m */; };
-		F72A852016BC3EA108F6853A2A0B5CC3 /* CJScrollPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE14FF20E59171D461A7487993B416 /* CJScrollPage-dummy.m */; };
-		F8AD8A56C190CE736D3623B78DD77260 /* NSString+SegmentModelProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C45F4C1167D1E1000EE349485212CA3A /* NSString+SegmentModelProtocol.m */; };
+		C79933AA638C7B130240139F81956595 /* NSString+SegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EB737B9C9182022553A39CE2E7679A /* NSString+SegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDAE63A32BF8F2680F735BAD998E9B26 /* WAISegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 54472D0AD9A795F354D1A9DD1A04815A /* WAISegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C4BDC59A239D00A4315E33B3DD8675 /* WAISegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D00A11E99FCAC1FD704A839A7C67D6 /* WAISegmentViewController.m */; };
+		EAE3AFC7AE8D7BF5A98408660C47879E /* WAIMenuBarShowDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A13FD1EC1247D90E304B8DAFF545D46E /* WAIMenuBarShowDetailVC.m */; };
+		F50ADE4225A2B2DB000E9DD4 /* UIView+WAIExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F50ADE4025A2B2DA000E9DD4 /* UIView+WAIExtension.h */; };
+		F50ADE4325A2B2DB000E9DD4 /* UIView+WAIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F50ADE4125A2B2DB000E9DD4 /* UIView+WAIExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24E7F9C07BA3BB33BDB4DB7CACC90B98 /* PBXContainerItemProxy */ = {
+		5A2A25A7CCEE550BFDB73A053171AD26 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C400E10DACA1EC2F80D3ED71394C510F;
 			remoteInfo = "Pods-CJScrollPage_Example";
 		};
-		78207D03B188C6ACE5EF123D97FBC5DC /* PBXContainerItemProxy */ = {
+		E97AD119A75AA4D4DFAEE75EB5A233A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -55,57 +55,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07E8243EDDD08988CD77225F861F3AAA /* WAISegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentBar.m; path = CJScrollPage/Classes/WAISegmentBar.m; sourceTree = "<group>"; };
 		0904D9EB92956A0661AC21AE9CAE0794 /* Pods-CJScrollPage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJScrollPage_Example.modulemap"; sourceTree = "<group>"; };
+		09688C2CB2900B430B4EF9F03A63D256 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0B411018C8BB487674C29BEE9DA0AAC0 /* Pods-CJScrollPage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJScrollPage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C17826E20D944C1A9252E924F97C712 /* WAISegmentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentViewController.m; path = CJScrollPage/Classes/WAISegmentViewController.m; sourceTree = "<group>"; };
-		0C33B4807F9ECEF4F06F7E0AF548E7E9 /* WAIMenuCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WAIMenuCell.xib; path = CJScrollPage/Classes/WAIMenuCell.xib; sourceTree = "<group>"; };
 		0D4DDD8F91D546263CBB7FEDC74EF971 /* Pods-CJScrollPage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Example-Info.plist"; sourceTree = "<group>"; };
 		114A191991BF13606DED954C7025B54A /* Pods-CJScrollPage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJScrollPage_Tests-dummy.m"; sourceTree = "<group>"; };
-		191915E74AFC15AE5B0766CAED7E9B0B /* WAIMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAIMenuCell.m; path = CJScrollPage/Classes/WAIMenuCell.m; sourceTree = "<group>"; };
+		15F1B1AD7DC9D5FDA2069652F1570E12 /* CJScrollPage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CJScrollPage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		187B5FF8C2FF3E4C4F56BDBC5353EB96 /* NSString+SegmentModelProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SegmentModelProtocol.m"; path = "CJScrollPage/Classes/NSString+SegmentModelProtocol.m"; sourceTree = "<group>"; };
 		1B0D3D5E8D67A61B7658627014F5DFE4 /* Pods-CJScrollPage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJScrollPage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		20D2017076B1341E9786EE8246CD2EBC /* Pods_CJScrollPage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJScrollPage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21331B4A90D1D7D3254DC247EB99EC37 /* CJScrollPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.debug.xcconfig; sourceTree = "<group>"; };
+		20F6A7FC7BF01FCD543ED15C0BA24BD9 /* WAIMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAIMenuCell.h; path = CJScrollPage/Classes/WAIMenuCell.h; sourceTree = "<group>"; };
 		2214939EB76E8620F6F7A1C77E152C26 /* Pods-CJScrollPage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJScrollPage_Example-dummy.m"; sourceTree = "<group>"; };
+		2453E4FBED0FF2A8A6AFB2C7BCA17FBC /* CJScrollPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.release.xcconfig; sourceTree = "<group>"; };
+		27099D2FD2B96D317FE0093D4E0B2183 /* WAIScrollPageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAIScrollPageHeader.h; path = CJScrollPage/Classes/WAIScrollPageHeader.h; sourceTree = "<group>"; };
 		2A4BAE06DDCA79DFF1CA3D82CABC71C1 /* Pods-CJScrollPage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2E0F22F02A86B7F5BE547C49F2C16A9F /* Pods_CJScrollPage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJScrollPage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		374466E0D4F6E08EDB2885A619803D2B /* WAISegmentRLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentRLButton.m; path = CJScrollPage/Classes/WAISegmentRLButton.m; sourceTree = "<group>"; };
-		3AADA6BB690D702516EC4D683676B0F2 /* WAIMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAIMenuCell.h; path = CJScrollPage/Classes/WAIMenuCell.h; sourceTree = "<group>"; };
+		30F56957E20419B9F915AAB522BC3DE0 /* WAISegmentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentViewController.h; path = CJScrollPage/Classes/WAISegmentViewController.h; sourceTree = "<group>"; };
+		3B22253CD04673E118D86225D7F3F25D /* WAIMenuCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WAIMenuCell.xib; path = CJScrollPage/Classes/WAIMenuCell.xib; sourceTree = "<group>"; };
 		3E260CF0271C6E5F8AE0B09CB97E9E5F /* Pods-CJScrollPage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		421965090EDE732CB3CEFBF0043C6034 /* CJScrollPage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-umbrella.h"; sourceTree = "<group>"; };
 		481EED78317158E9BA10445083D789CC /* Pods-CJScrollPage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		51E5917A5EB4242C51A316F2AEFA7468 /* WAISegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentBar.h; path = CJScrollPage/Classes/WAISegmentBar.h; sourceTree = "<group>"; };
-		53B7B6BE3DD5052BA3CAA2B0D415C5DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		58195DB6A6018D326AED15F6ED68CFF8 /* WAISegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentModelProtocol.h; path = CJScrollPage/Classes/WAISegmentModelProtocol.h; sourceTree = "<group>"; };
+		4D8F3D1A48D7C4B38F39BFFD85DF5D20 /* CJScrollPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.debug.xcconfig; sourceTree = "<group>"; };
+		54472D0AD9A795F354D1A9DD1A04815A /* WAISegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentModelProtocol.h; path = CJScrollPage/Classes/WAISegmentModelProtocol.h; sourceTree = "<group>"; };
 		598643600EEB4AE96906CE2EF7A0F8D1 /* CJScrollPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJScrollPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ADA1049C8B6C867811A3E5FCD42967D /* WAIScrollPageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAIScrollPageHeader.h; path = CJScrollPage/Classes/WAIScrollPageHeader.h; sourceTree = "<group>"; };
-		6134726248A471E54D8C6DF4BDF9BEDC /* WAIMenuBarShowDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAIMenuBarShowDetailVC.m; path = CJScrollPage/Classes/WAIMenuBarShowDetailVC.m; sourceTree = "<group>"; };
-		6BCE14FF20E59171D461A7487993B416 /* CJScrollPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJScrollPage-dummy.m"; sourceTree = "<group>"; };
+		59CB49CD95DD0B8F3CF7D7011A9F3BB8 /* CJScrollPage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJScrollPage.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		730173765A72654C00B0893BA761C5EE /* NSString+SegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SegmentModelProtocol.h"; path = "CJScrollPage/Classes/NSString+SegmentModelProtocol.h"; sourceTree = "<group>"; };
-		7DFE4D02AC4627523443427BF7013CA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7303726B88717155DC5F3DDB18AD6A69 /* WAISegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentBarConfig.m; path = CJScrollPage/Classes/WAISegmentBarConfig.m; sourceTree = "<group>"; };
+		73F1D5ED72AAF868431E096929C29D70 /* WAISegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentBar.h; path = CJScrollPage/Classes/WAISegmentBar.h; sourceTree = "<group>"; };
+		7420A282ABF10CE45AFB4B3BE5C3518A /* WAIMenuBarShowDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAIMenuBarShowDetailVC.h; path = CJScrollPage/Classes/WAIMenuBarShowDetailVC.h; sourceTree = "<group>"; };
 		814EC7B3D442B34493F79F8CB9ABC1ED /* Pods-CJScrollPage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8B52DA196D438B6E02F3CF9AABD47D02 /* WAISegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentBarConfig.h; path = CJScrollPage/Classes/WAISegmentBarConfig.h; sourceTree = "<group>"; };
-		8E8A4AD4D2448C5A7C937721F9E5CD20 /* WAISegmentRLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentRLButton.h; path = CJScrollPage/Classes/WAISegmentRLButton.h; sourceTree = "<group>"; };
+		83666F575C45CC3912F5189154BB4314 /* WAISegmentRLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentRLButton.m; path = CJScrollPage/Classes/WAISegmentRLButton.m; sourceTree = "<group>"; };
 		94034C6839E4941606F5BF1D10A57E23 /* Pods-CJScrollPage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9504A71900CB3EDEEA562F196C54C052 /* CJScrollPage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CJScrollPage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940F0A7F574D2CD745E7F3BE3C1F290F /* CJScrollPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJScrollPage-dummy.m"; sourceTree = "<group>"; };
+		9635883A3DC17A38975263B0275200A5 /* CJScrollPage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-umbrella.h"; sourceTree = "<group>"; };
+		9C2D3C99F2E9A3F2F7439CC0B93D1523 /* WAISegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentBarConfig.h; path = CJScrollPage/Classes/WAISegmentBarConfig.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A13FD1EC1247D90E304B8DAFF545D46E /* WAIMenuBarShowDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAIMenuBarShowDetailVC.m; path = CJScrollPage/Classes/WAIMenuBarShowDetailVC.m; sourceTree = "<group>"; };
 		A3CDF956FDDBFA4EC8BFA5BC1ACD2769 /* Pods-CJScrollPage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Tests-Info.plist"; sourceTree = "<group>"; };
-		A9E823139D2A3D019C7C892679BD108B /* CJScrollPage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJScrollPage-Info.plist"; sourceTree = "<group>"; };
-		AEE7BFAD150E2E288B047B0E5919F481 /* WAIMenuBarShowDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAIMenuBarShowDetailVC.h; path = CJScrollPage/Classes/WAIMenuBarShowDetailVC.h; sourceTree = "<group>"; };
+		A6EB737B9C9182022553A39CE2E7679A /* NSString+SegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SegmentModelProtocol.h"; path = "CJScrollPage/Classes/NSString+SegmentModelProtocol.h"; sourceTree = "<group>"; };
+		B388024BB1BF0DE341F7605E2BA56E41 /* WAIMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAIMenuCell.m; path = CJScrollPage/Classes/WAIMenuCell.m; sourceTree = "<group>"; };
 		B513D590709F1E8E48E345BFF6B47179 /* Pods-CJScrollPage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJScrollPage_Tests.modulemap"; sourceTree = "<group>"; };
-		BA6AFFE9340AF56831E492E68A528DAE /* WAISegmentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentViewController.h; path = CJScrollPage/Classes/WAISegmentViewController.h; sourceTree = "<group>"; };
-		BEE001CB66B81A68AFC72E60DD2818FB /* CJScrollPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.release.xcconfig; sourceTree = "<group>"; };
-		C39275DE6989680D0FAD0B0AA4A3F0B2 /* WAISegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentBarConfig.m; path = CJScrollPage/Classes/WAISegmentBarConfig.m; sourceTree = "<group>"; };
-		C45F4C1167D1E1000EE349485212CA3A /* NSString+SegmentModelProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SegmentModelProtocol.m"; path = "CJScrollPage/Classes/NSString+SegmentModelProtocol.m"; sourceTree = "<group>"; };
+		BB18838A6320DE78E18D481BE4AB9FCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BDCBDD93DEE4AD2309BA973C66D9119B /* WAISegmentRLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WAISegmentRLButton.h; path = CJScrollPage/Classes/WAISegmentRLButton.h; sourceTree = "<group>"; };
 		C53F36CB64B39D6FDBE9ED0C9E66485C /* Pods-CJScrollPage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJScrollPage_Example-umbrella.h"; sourceTree = "<group>"; };
 		CCB443CCD5F0FE350EECEE6F652B2274 /* Pods-CJScrollPage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJScrollPage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D15853D18F8915EFB6D963F27EA29A6B /* Pods-CJScrollPage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJScrollPage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1E8C43F31F90487026BBF2AEC3EDEEF /* CJScrollPage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJScrollPage.modulemap; sourceTree = "<group>"; };
-		D5A7671DDBB9344F517BBEF8B8D73705 /* WAISegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentBar.m; path = CJScrollPage/Classes/WAISegmentBar.m; sourceTree = "<group>"; };
+		D5D00A11E99FCAC1FD704A839A7C67D6 /* WAISegmentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WAISegmentViewController.m; path = CJScrollPage/Classes/WAISegmentViewController.m; sourceTree = "<group>"; };
 		DD7CEDB7AE7B2426965B8D360D62E9EC /* Pods-CJScrollPage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF8C7A778049E58ED7B898098F16B6D8 /* CJScrollPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-prefix.pch"; sourceTree = "<group>"; };
-		F50ADE2925A2AB75000E9DD4 /* UIView+WAIExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WAIExtension.h"; sourceTree = "<group>"; };
-		F50ADE2A25A2AB75000E9DD4 /* UIView+WAIExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WAIExtension.m"; sourceTree = "<group>"; };
+		E414C25A1324352C42FBC7C3267CD561 /* CJScrollPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-prefix.pch"; sourceTree = "<group>"; };
+		E669CAC35DC82B0D32E726A5186502EE /* CJScrollPage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJScrollPage-Info.plist"; sourceTree = "<group>"; };
+		F50ADE4025A2B2DA000E9DD4 /* UIView+WAIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WAIExtension.h"; path = "CJScrollPage/Classes/UIView+WAIExtension.h"; sourceTree = "<group>"; };
+		F50ADE4125A2B2DB000E9DD4 /* UIView+WAIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WAIExtension.m"; path = "CJScrollPage/Classes/UIView+WAIExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,30 +125,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44E05D439479B305FAAEA09083536D83 /* Frameworks */ = {
+		AE90F13689C2940B7B34E8C77AE0FBC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40ECD402459B601CCA7F0731AA2CB25 /* Foundation.framework in Frameworks */,
+				026DE94FF5A4E4A9E9F078601B9AB786 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17E4E4AB18E9D1F74E3F960CC1FC4444 /* Support Files */ = {
+		05309E18A4DFC84C414D054239065E08 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D1E8C43F31F90487026BBF2AEC3EDEEF /* CJScrollPage.modulemap */,
-				6BCE14FF20E59171D461A7487993B416 /* CJScrollPage-dummy.m */,
-				A9E823139D2A3D019C7C892679BD108B /* CJScrollPage-Info.plist */,
-				EF8C7A778049E58ED7B898098F16B6D8 /* CJScrollPage-prefix.pch */,
-				421965090EDE732CB3CEFBF0043C6034 /* CJScrollPage-umbrella.h */,
-				21331B4A90D1D7D3254DC247EB99EC37 /* CJScrollPage.debug.xcconfig */,
-				BEE001CB66B81A68AFC72E60DD2818FB /* CJScrollPage.release.xcconfig */,
+				15F1B1AD7DC9D5FDA2069652F1570E12 /* CJScrollPage.podspec */,
+				BB18838A6320DE78E18D481BE4AB9FCA /* LICENSE */,
+				09688C2CB2900B430B4EF9F03A63D256 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CJScrollPage";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		32987E870A0D21C6C90E71FA6C8904A2 /* Products */ = {
@@ -186,51 +181,19 @@
 			path = "Target Support Files/Pods-CJScrollPage_Example";
 			sourceTree = "<group>";
 		};
-		802D21BBE51DD5176DC11D2C1D369DA0 /* CJScrollPage */ = {
+		97BE66E3B96EE394C82CF5CAAC9DD9DA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				730173765A72654C00B0893BA761C5EE /* NSString+SegmentModelProtocol.h */,
-				C45F4C1167D1E1000EE349485212CA3A /* NSString+SegmentModelProtocol.m */,
-				F50ADE2925A2AB75000E9DD4 /* UIView+WAIExtension.h */,
-				F50ADE2A25A2AB75000E9DD4 /* UIView+WAIExtension.m */,
-				AEE7BFAD150E2E288B047B0E5919F481 /* WAIMenuBarShowDetailVC.h */,
-				6134726248A471E54D8C6DF4BDF9BEDC /* WAIMenuBarShowDetailVC.m */,
-				3AADA6BB690D702516EC4D683676B0F2 /* WAIMenuCell.h */,
-				191915E74AFC15AE5B0766CAED7E9B0B /* WAIMenuCell.m */,
-				0C33B4807F9ECEF4F06F7E0AF548E7E9 /* WAIMenuCell.xib */,
-				5ADA1049C8B6C867811A3E5FCD42967D /* WAIScrollPageHeader.h */,
-				51E5917A5EB4242C51A316F2AEFA7468 /* WAISegmentBar.h */,
-				D5A7671DDBB9344F517BBEF8B8D73705 /* WAISegmentBar.m */,
-				8B52DA196D438B6E02F3CF9AABD47D02 /* WAISegmentBarConfig.h */,
-				C39275DE6989680D0FAD0B0AA4A3F0B2 /* WAISegmentBarConfig.m */,
-				58195DB6A6018D326AED15F6ED68CFF8 /* WAISegmentModelProtocol.h */,
-				8E8A4AD4D2448C5A7C937721F9E5CD20 /* WAISegmentRLButton.h */,
-				374466E0D4F6E08EDB2885A619803D2B /* WAISegmentRLButton.m */,
-				BA6AFFE9340AF56831E492E68A528DAE /* WAISegmentViewController.h */,
-				0C17826E20D944C1A9252E924F97C712 /* WAISegmentViewController.m */,
-				9E56F759632E689921865D8E7ECC6763 /* Pod */,
-				17E4E4AB18E9D1F74E3F960CC1FC4444 /* Support Files */,
+				59CB49CD95DD0B8F3CF7D7011A9F3BB8 /* CJScrollPage.modulemap */,
+				940F0A7F574D2CD745E7F3BE3C1F290F /* CJScrollPage-dummy.m */,
+				E669CAC35DC82B0D32E726A5186502EE /* CJScrollPage-Info.plist */,
+				E414C25A1324352C42FBC7C3267CD561 /* CJScrollPage-prefix.pch */,
+				9635883A3DC17A38975263B0275200A5 /* CJScrollPage-umbrella.h */,
+				4D8F3D1A48D7C4B38F39BFFD85DF5D20 /* CJScrollPage.debug.xcconfig */,
+				2453E4FBED0FF2A8A6AFB2C7BCA17FBC /* CJScrollPage.release.xcconfig */,
 			);
-			name = CJScrollPage;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		81840238884C3725CFFFAC2AB572C9ED /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				802D21BBE51DD5176DC11D2C1D369DA0 /* CJScrollPage */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9E56F759632E689921865D8E7ECC6763 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9504A71900CB3EDEEA562F196C54C052 /* CJScrollPage.podspec */,
-				53B7B6BE3DD5052BA3CAA2B0D415C5DB /* LICENSE */,
-				7DFE4D02AC4627523443427BF7013CA1 /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CJScrollPage";
 			sourceTree = "<group>";
 		};
 		BFED2E70507F044A3FAC783F5CC20A1D /* Pods-CJScrollPage_Tests */ = {
@@ -262,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				81840238884C3725CFFFAC2AB572C9ED /* Development Pods */,
+				D751AFE81230D5A41438000F7B78AE8B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				32987E870A0D21C6C90E71FA6C8904A2 /* Products */,
 				C33A6BEF96EB08A6BF2111BCC3A6E2CB /* Targets Support Files */,
@@ -275,6 +238,43 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D751AFE81230D5A41438000F7B78AE8B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5C2630CE87A0972FFA4D114433A11D2 /* CJScrollPage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E5C2630CE87A0972FFA4D114433A11D2 /* CJScrollPage */ = {
+			isa = PBXGroup;
+			children = (
+				F50ADE4025A2B2DA000E9DD4 /* UIView+WAIExtension.h */,
+				F50ADE4125A2B2DB000E9DD4 /* UIView+WAIExtension.m */,
+				A6EB737B9C9182022553A39CE2E7679A /* NSString+SegmentModelProtocol.h */,
+				187B5FF8C2FF3E4C4F56BDBC5353EB96 /* NSString+SegmentModelProtocol.m */,
+				7420A282ABF10CE45AFB4B3BE5C3518A /* WAIMenuBarShowDetailVC.h */,
+				A13FD1EC1247D90E304B8DAFF545D46E /* WAIMenuBarShowDetailVC.m */,
+				20F6A7FC7BF01FCD543ED15C0BA24BD9 /* WAIMenuCell.h */,
+				B388024BB1BF0DE341F7605E2BA56E41 /* WAIMenuCell.m */,
+				3B22253CD04673E118D86225D7F3F25D /* WAIMenuCell.xib */,
+				27099D2FD2B96D317FE0093D4E0B2183 /* WAIScrollPageHeader.h */,
+				73F1D5ED72AAF868431E096929C29D70 /* WAISegmentBar.h */,
+				07E8243EDDD08988CD77225F861F3AAA /* WAISegmentBar.m */,
+				9C2D3C99F2E9A3F2F7439CC0B93D1523 /* WAISegmentBarConfig.h */,
+				7303726B88717155DC5F3DDB18AD6A69 /* WAISegmentBarConfig.m */,
+				54472D0AD9A795F354D1A9DD1A04815A /* WAISegmentModelProtocol.h */,
+				BDCBDD93DEE4AD2309BA973C66D9119B /* WAISegmentRLButton.h */,
+				83666F575C45CC3912F5189154BB4314 /* WAISegmentRLButton.m */,
+				30F56957E20419B9F915AAB522BC3DE0 /* WAISegmentViewController.h */,
+				D5D00A11E99FCAC1FD704A839A7C67D6 /* WAISegmentViewController.m */,
+				05309E18A4DFC84C414D054239065E08 /* Pod */,
+				97BE66E3B96EE394C82CF5CAAC9DD9DA /* Support Files */,
+			);
+			name = CJScrollPage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,21 +296,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39ED3919750BFBC0DCDBEB3E6138E30F /* Headers */ = {
+		71FCDE81D7C7D0211D78153F0C35F7C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9725DC5E99CDAA4419EC558CADF8F2DC /* CJScrollPage-umbrella.h in Headers */,
-				80B9234B51533691BCC146E855FB8160 /* NSString+SegmentModelProtocol.h in Headers */,
-				83FCCE1E9DFA956271E19EF0A1B2BE69 /* WAIMenuBarShowDetailVC.h in Headers */,
-				CCE1401889D5773CA3A0BD57466F8A7A /* WAIMenuCell.h in Headers */,
-				0AAB6E70B98586F34D6CDFD8DF904B59 /* WAIScrollPageHeader.h in Headers */,
-				53E547386C750EE232F19A8806017617 /* WAISegmentBar.h in Headers */,
-				EDB8B8FD721D740EEF898AB126421B59 /* WAISegmentBarConfig.h in Headers */,
-				59CBEE1310F92D0E7BA79519A41C267B /* WAISegmentModelProtocol.h in Headers */,
-				F50ADE2B25A2AB75000E9DD4 /* UIView+WAIExtension.h in Headers */,
-				CE666EACC6CBB9D6099BD36B2D497F8F /* WAISegmentRLButton.h in Headers */,
-				04DF296528B6BC67780BD91C6D27D443 /* WAISegmentViewController.h in Headers */,
+				01D27541333102BA06D646ADCB8D85B5 /* CJScrollPage-umbrella.h in Headers */,
+				C79933AA638C7B130240139F81956595 /* NSString+SegmentModelProtocol.h in Headers */,
+				69179FC37C02493564CF385FED3F6967 /* WAIMenuBarShowDetailVC.h in Headers */,
+				50BEB36713A6D2A10A1B14871EC10076 /* WAIMenuCell.h in Headers */,
+				003044E7304DA6FF7467D63062006FD0 /* WAIScrollPageHeader.h in Headers */,
+				F50ADE4225A2B2DB000E9DD4 /* UIView+WAIExtension.h in Headers */,
+				9591D28396725C2262F40D014454D317 /* WAISegmentBar.h in Headers */,
+				6F1C0B970466F22399B17158DF1BDB45 /* WAISegmentBarConfig.h in Headers */,
+				CDAE63A32BF8F2680F735BAD998E9B26 /* WAISegmentModelProtocol.h in Headers */,
+				BAF023C3420B0ABDFCD6A2FB20F74306 /* WAISegmentRLButton.h in Headers */,
+				9AE09B06702BEFA400297E92452FCC26 /* WAISegmentViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +329,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2BD90AA20C0CA9D2151BAE6915FAD96B /* PBXTargetDependency */,
+				7DC1BB418F27868F5E5DC2BE35FB651C /* PBXTargetDependency */,
 			);
 			name = "Pods-CJScrollPage_Example";
 			productName = "Pods-CJScrollPage_Example";
@@ -338,12 +338,12 @@
 		};
 		D08DE13667B62EE4A48B50C2E8DA42BE /* CJScrollPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62AA4C3DAC884B74B502764A745AAA26 /* Build configuration list for PBXNativeTarget "CJScrollPage" */;
+			buildConfigurationList = A0E8E1913A3DA5A31463251855270CA1 /* Build configuration list for PBXNativeTarget "CJScrollPage" */;
 			buildPhases = (
-				39ED3919750BFBC0DCDBEB3E6138E30F /* Headers */,
-				4E17A7585111E514E91FFA6904059F0D /* Sources */,
-				44E05D439479B305FAAEA09083536D83 /* Frameworks */,
-				44C486A9D9114445364F6ABD8B6C74DC /* Resources */,
+				71FCDE81D7C7D0211D78153F0C35F7C0 /* Headers */,
+				3183782DAA17285C247953C7EF156424 /* Sources */,
+				AE90F13689C2940B7B34E8C77AE0FBC0 /* Frameworks */,
+				4DAFF832893F844DE0DF2CFAD2812460 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -366,7 +366,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F1E94FAE3BA86F240214B010D8A7EA55 /* PBXTargetDependency */,
+				2297048E562F78CF42107A31C207EE79 /* PBXTargetDependency */,
 			);
 			name = "Pods-CJScrollPage_Tests";
 			productName = "Pods-CJScrollPage_Tests";
@@ -403,7 +403,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		44C486A9D9114445364F6ABD8B6C74DC /* Resources */ = {
+		4DAFF832893F844DE0DF2CFAD2812460 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,28 +427,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3183782DAA17285C247953C7EF156424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC5FFC0DD96EF08CA84F55AAA76F3B0 /* CJScrollPage-dummy.m in Sources */,
+				46428D65AEA5E38334FC6B57BE32D897 /* NSString+SegmentModelProtocol.m in Sources */,
+				F50ADE4325A2B2DB000E9DD4 /* UIView+WAIExtension.m in Sources */,
+				EAE3AFC7AE8D7BF5A98408660C47879E /* WAIMenuBarShowDetailVC.m in Sources */,
+				2BE867A2D9BB65EF8F6586A5BB9BE2FD /* WAIMenuCell.m in Sources */,
+				2ECA7DF265FFF22A936F782B1C69F8E2 /* WAIMenuCell.xib in Sources */,
+				05A1C9CC2B56C2AAC43E557B450D3CE0 /* WAISegmentBar.m in Sources */,
+				16FBD7049AD28520F0EF4322A0BDAD1D /* WAISegmentBarConfig.m in Sources */,
+				56611EF6C7A441E3F699DFBB08FFC0F7 /* WAISegmentRLButton.m in Sources */,
+				D9C4BDC59A239D00A4315E33B3DD8675 /* WAISegmentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		397B35692DC285D51A71BE651C300962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E9B368781370BD1ADF38EEA93480ED8 /* Pods-CJScrollPage_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E17A7585111E514E91FFA6904059F0D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F72A852016BC3EA108F6853A2A0B5CC3 /* CJScrollPage-dummy.m in Sources */,
-				F8AD8A56C190CE736D3623B78DD77260 /* NSString+SegmentModelProtocol.m in Sources */,
-				26708CD5C2BD158F08B463C015B0DB25 /* WAIMenuBarShowDetailVC.m in Sources */,
-				92837CABEBCF882269E5AD8E129A6A9C /* WAIMenuCell.m in Sources */,
-				E489B8A10C6A2DE4512A0C14CF9C3B9A /* WAIMenuCell.xib in Sources */,
-				E047CBE21260E7D0F37893A5D2DB2C1F /* WAISegmentBar.m in Sources */,
-				E949CF18496F29F8723D8CA31342844D /* WAISegmentBarConfig.m in Sources */,
-				9F50892E6A0B34FB4872CFADCC592036 /* WAISegmentRLButton.m in Sources */,
-				F50ADE2C25A2AB75000E9DD4 /* UIView+WAIExtension.m in Sources */,
-				DC81181A28C2CB341B7CEE7B01AE9456 /* WAISegmentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,17 +463,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BD90AA20C0CA9D2151BAE6915FAD96B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CJScrollPage;
-			target = D08DE13667B62EE4A48B50C2E8DA42BE /* CJScrollPage */;
-			targetProxy = 78207D03B188C6ACE5EF123D97FBC5DC /* PBXContainerItemProxy */;
-		};
-		F1E94FAE3BA86F240214B010D8A7EA55 /* PBXTargetDependency */ = {
+		2297048E562F78CF42107A31C207EE79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CJScrollPage_Example";
 			target = C400E10DACA1EC2F80D3ED71394C510F /* Pods-CJScrollPage_Example */;
-			targetProxy = 24E7F9C07BA3BB33BDB4DB7CACC90B98 /* PBXContainerItemProxy */;
+			targetProxy = 5A2A25A7CCEE550BFDB73A053171AD26 /* PBXContainerItemProxy */;
+		};
+		7DC1BB418F27868F5E5DC2BE35FB651C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CJScrollPage;
+			target = D08DE13667B62EE4A48B50C2E8DA42BE /* CJScrollPage */;
+			targetProxy = E97AD119A75AA4D4DFAEE75EB5A233A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -610,6 +610,67 @@
 			};
 			name = Release;
 		};
+		6C8F2F8ABFAD4E565771F16611ED6C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8F3D1A48D7C4B38F39BFFD85DF5D20 /* CJScrollPage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CJScrollPage/CJScrollPage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CJScrollPage/CJScrollPage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CJScrollPage/CJScrollPage.modulemap";
+				PRODUCT_MODULE_NAME = CJScrollPage;
+				PRODUCT_NAME = CJScrollPage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9164D8EFE5DB013AB9DB0BCF6EFC8661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2453E4FBED0FF2A8A6AFB2C7BCA17FBC /* CJScrollPage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CJScrollPage/CJScrollPage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CJScrollPage/CJScrollPage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CJScrollPage/CJScrollPage.modulemap";
+				PRODUCT_MODULE_NAME = CJScrollPage;
+				PRODUCT_NAME = CJScrollPage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A9947D4E65F19AA0C914C5A22AD7E65D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 814EC7B3D442B34493F79F8CB9ABC1ED /* Pods-CJScrollPage_Example.debug.xcconfig */;
@@ -636,36 +697,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B2BD9EFDC5DA8C5EF2089F89238DF22A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21331B4A90D1D7D3254DC247EB99EC37 /* CJScrollPage.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CJScrollPage/CJScrollPage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CJScrollPage/CJScrollPage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CJScrollPage/CJScrollPage.modulemap";
-				PRODUCT_MODULE_NAME = CJScrollPage;
-				PRODUCT_NAME = CJScrollPage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -733,37 +764,6 @@
 			};
 			name = Release;
 		};
-		D0BF1877D6258F9ABA4412FD2114D4B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE001CB66B81A68AFC72E60DD2818FB /* CJScrollPage.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CJScrollPage/CJScrollPage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CJScrollPage/CJScrollPage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CJScrollPage/CJScrollPage.modulemap";
-				PRODUCT_MODULE_NAME = CJScrollPage;
-				PRODUCT_NAME = CJScrollPage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		EC1A39FA6A5F22EF1D1D7A5E04E07B4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E260CF0271C6E5F8AE0B09CB97E9E5F /* Pods-CJScrollPage_Tests.debug.xcconfig */;
@@ -808,20 +808,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62AA4C3DAC884B74B502764A745AAA26 /* Build configuration list for PBXNativeTarget "CJScrollPage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2BD9EFDC5DA8C5EF2089F89238DF22A /* Debug */,
-				D0BF1877D6258F9ABA4412FD2114D4B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6F17BA3552F26E52898332B31A981B3F /* Build configuration list for PBXNativeTarget "Pods-CJScrollPage_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9947D4E65F19AA0C914C5A22AD7E65D /* Debug */,
 				55A5B70AA89A6AB006F03862AE7E0E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E8E1913A3DA5A31463251855270CA1 /* Build configuration list for PBXNativeTarget "CJScrollPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8F2F8ABFAD4E565771F16611ED6C32 /* Debug */,
+				9164D8EFE5DB013AB9DB0BCF6EFC8661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
