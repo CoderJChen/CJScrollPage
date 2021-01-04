@@ -1,16 +1,16 @@
 //
-//  WAISegmentBarConfig.m
+//  CJSegmentBarConfig.m
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/26.
 //  Copyright © 2019 Eric. All rights reserved.
 //
 
-#import "WAISegmentBarConfig.h"
+#import "CJSegmentBarConfig.h"
 
-@implementation WAISegmentBarConfig
+@implementation CJSegmentBarConfig
 +(instancetype)defaultConfig{
-    WAISegmentBarConfig * config = [[WAISegmentBarConfig alloc]init];
+    CJSegmentBarConfig * config = [[CJSegmentBarConfig alloc]init];
     config.segmentBarBackColor = [UIColor clearColor];
     config.itemNormalFont = [UIFont systemFontOfSize:12];
     config.itemSelectFont = [UIFont systemFontOfSize:12];
@@ -30,31 +30,31 @@
     }
     return _segmentBarBackColor;
 }
--(WAISegmentBarConfig * _Nonnull (^)(UIFont * _Nonnull))itemNF{
+-(CJSegmentBarConfig * _Nonnull (^)(UIFont * _Nonnull))itemNF{
     return ^(UIFont * font){
         self.itemNormalFont = font;
         return self;
     };
 }
-- (WAISegmentBarConfig * _Nonnull (^)(UIFont * _Nonnull))itemSF{
+- (CJSegmentBarConfig * _Nonnull (^)(UIFont * _Nonnull))itemSF{
     return ^(UIFont * font){
         self.itemSelectFont = font;
         return self;
     };
 }
--(WAISegmentBarConfig * _Nonnull (^)(UIColor * _Nonnull))itemNC{
+-(CJSegmentBarConfig * _Nonnull (^)(UIColor * _Nonnull))itemNC{
     return ^(UIColor * color){
         self.itemNormalColor = color;
         return self;
     };
 }
--(WAISegmentBarConfig * _Nonnull (^)(UIColor * _Nonnull))itemSC{
+-(CJSegmentBarConfig * _Nonnull (^)(UIColor * _Nonnull))itemSC{
     return ^(UIColor * color){
         self.itemSelectColor = color;
         return self;
     };
 }
-- (WAISegmentBarConfig * _Nonnull (^)(CGFloat))indicatorEW{
+- (CJSegmentBarConfig * _Nonnull (^)(CGFloat))indicatorEW{
     return ^(CGFloat indicatorEW){
         self.indicatorExtraW = indicatorEW;
         return self;

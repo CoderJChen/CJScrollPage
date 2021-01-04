@@ -1,5 +1,5 @@
 //
-//  WAISegmentBarConfig.h
+//  CJSegmentBarConfig.h
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/26.
@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WAISegmentBarConfig : NSObject
+@interface CJSegmentBarConfig : NSObject
 
 + (instancetype)defaultConfig;
 
@@ -46,11 +46,11 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  z设置文本常规字体颜色、选中字体颜色、下划线宽    链式编程
  */
-@property(copy,nonatomic) WAISegmentBarConfig * (^itemNC)(UIColor * color);
-@property(copy,nonatomic) WAISegmentBarConfig * (^itemSC)(UIColor * color);
-@property(copy,nonatomic) WAISegmentBarConfig * (^itemNF)(UIFont * font);
-@property(copy,nonatomic) WAISegmentBarConfig * (^itemSF)(UIFont * font);
-@property(copy,nonatomic) WAISegmentBarConfig * (^indicatorEW)(CGFloat w);
+@property(copy,nonatomic) CJSegmentBarConfig * (^itemNC)(UIColor * color);
+@property(copy,nonatomic) CJSegmentBarConfig * (^itemSC)(UIColor * color);
+@property(copy,nonatomic) CJSegmentBarConfig * (^itemNF)(UIFont * font);
+@property(copy,nonatomic) CJSegmentBarConfig * (^itemSF)(UIFont * font);
+@property(copy,nonatomic) CJSegmentBarConfig * (^indicatorEW)(CGFloat w);
 @end
 
 NS_ASSUME_NONNULL_END

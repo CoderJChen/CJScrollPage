@@ -1,5 +1,5 @@
 //
-//  WAIMenuCell.h
+//  CJMenuCell.h
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WAIMenuCell : UICollectionViewCell
+@interface CJMenuCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UILabel *menueLabel;
 @end
 

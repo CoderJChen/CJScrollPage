@@ -1,108 +1,108 @@
 //
-//  UIView+WAIExtension.m
+//  UIView+CJExtension.m
 //  CJScrollPage
 //
 //  Created by Eric on 2021/1/4.
 //
 
-#import "UIView+WAIExtension.h"
+#import "UIView+CJExtension.h"
 
-@implementation UIView (WAIExtension)
+@implementation UIView (CJExtension)
 
-- (void)setWAI_x:(CGFloat)WAI_x{
+- (void)setCJ_x:(CGFloat)CJ_x{
     CGRect frame = self.frame;
-    frame.origin.x = WAI_x;
+    frame.origin.x = CJ_x;
     self.frame = frame;
 }
--(void)setWAI_y:(CGFloat)WAI_y{
+-(void)setCJ_y:(CGFloat)CJ_y{
     CGRect frame = self.frame;
-    frame.origin.x = WAI_y;
+    frame.origin.x = CJ_y;
     self.frame = frame;
 }
--(void)setWAI_top:(CGFloat)WAI_top{
+-(void)setCJ_top:(CGFloat)CJ_top{
     CGRect frame = self.frame;
-    frame.origin.y = WAI_top;
+    frame.origin.y = CJ_top;
     self.frame = frame;
 }
--(void)setWAI_left:(CGFloat)WAI_left{
+-(void)setCJ_left:(CGFloat)CJ_left{
     CGRect frame = self.frame;
-    frame.origin.x = WAI_left;
+    frame.origin.x = CJ_left;
     self.frame = frame;
 }
--(void)setWAI_right:(CGFloat)WAI_right{
+-(void)setCJ_right:(CGFloat)CJ_right{
     CGRect frame = self.frame;
-    frame.origin.x = WAI_right - frame.size.width;
+    frame.origin.x = CJ_right - frame.size.width;
     self.frame = frame;
 }
--(void)setWAI_bottom:(CGFloat)WAI_bottom{
+-(void)setCJ_bottom:(CGFloat)CJ_bottom{
     CGRect frame = self.frame;
-    frame.origin.y = WAI_bottom - frame.size.height;
+    frame.origin.y = CJ_bottom - frame.size.height;
     self.frame = frame;
 }
--(void)setWAI_width:(CGFloat)WAI_width{
+-(void)setCJ_width:(CGFloat)CJ_width{
     CGRect frame = self.frame;
-    frame.size.width = WAI_width;
+    frame.size.width = CJ_width;
     self.frame = frame;
 }
--(void)setWAI_height:(CGFloat)WAI_height{
+-(void)setCJ_height:(CGFloat)CJ_height{
     CGRect frame = self.frame;
-    frame.size.height = WAI_height;
+    frame.size.height = CJ_height;
     self.frame = frame;
 }
--(void)setWAI_origin:(CGPoint)WAI_origin{
+-(void)setCJ_origin:(CGPoint)CJ_origin{
     CGRect frame = self.frame;
-    frame.origin = WAI_origin;
+    frame.origin = CJ_origin;
     self.frame = frame;
 }
--(void)setWAI_size:(CGSize)WAI_size{
+-(void)setCJ_size:(CGSize)CJ_size{
     CGRect frame = self.frame;
-    frame.size = WAI_size;
+    frame.size = CJ_size;
     self.frame = frame;
 }
--(void)setWAI_centerX:(CGFloat)WAI_centerX{
+-(void)setCJ_centerX:(CGFloat)CJ_centerX{
     CGPoint center = self.center;
-    center.x = WAI_centerX;
+    center.x = CJ_centerX;
     self.center = center;
 }
--(void)setWAI_centerY:(CGFloat)WAI_centerY{
+-(void)setCJ_centerY:(CGFloat)CJ_centerY{
     CGPoint center = self.center;
-    center.y = WAI_centerY;
+    center.y = CJ_centerY;
     self.center = center;
 }
--(CGFloat)WAI_x{
+-(CGFloat)CJ_x{
     return self.frame.origin.x;
 }
--(CGFloat)WAI_y{
+-(CGFloat)CJ_y{
     return self.frame.origin.y;
 }
--(CGFloat)WAI_left{
+-(CGFloat)CJ_left{
     return self.frame.origin.x;
 }
--(CGFloat)WAI_top{
+-(CGFloat)CJ_top{
     return self.frame.origin.y;
 }
--(CGFloat)WAI_right{
+-(CGFloat)CJ_right{
     return self.frame.origin.x + self.frame.size.width;
 }
--(CGFloat)WAI_bottom{
+-(CGFloat)CJ_bottom{
     return self.frame.origin.y + self.frame.size.height;
 }
--(CGFloat)WAI_width{
+-(CGFloat)CJ_width{
     return self.frame.size.width;
 }
--(CGFloat)WAI_height{
+-(CGFloat)CJ_height{
     return self.frame.size.height;
 }
--(CGSize)WAI_size{
+-(CGSize)CJ_size{
     return self.frame.size;
 }
-- (CGPoint)WAI_origin{
+- (CGPoint)CJ_origin{
     return self.frame.origin;
 }
-- (CGFloat)WAI_centerX{
+- (CGFloat)CJ_centerX{
     return self.center.x;
 }
-- (CGFloat)WAI_centerY{
+- (CGFloat)CJ_centerY{
     return self.center.y;
 }
 + (instancetype)CJ_viewFromXib

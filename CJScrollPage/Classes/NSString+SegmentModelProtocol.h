@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WAISegmentModelProtocol.h"
+#import "CJSegmentModelProtocol.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (SegmentModelProtocol)<WAISegmentModelProtocol>
+@interface NSString (SegmentModelProtocol)<CJSegmentModelProtocol>
 /**选项卡的ID，如果不设置， 默认从0开始*/
 -(NSInteger)segID;
 /**

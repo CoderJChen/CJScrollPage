@@ -1,38 +1,38 @@
 //
-//  WAISegmentBar.m
+//  CJSegmentBar.m
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/26.
 //  Copyright © 2019 Eric. All rights reserved.
 //
 
-#import "WAISegmentBar.h"
-#import "WAISegmentRLButton.h"
-#import "WAIMenuBarShowDetailVC.h"
-#import "WAIScrollPageHeader.h"
+#import "CJSegmentBar.h"
+#import "CJSegmentRLButton.h"
+#import "CJMenuBarShowDetailVC.h"
+#import "CJScrollPageHeader.h"
 
-#define WAIMinMargin 30
-#define WAIShowMoreBtnW (self.bounds.size.height + 30)
+#define CJMinMargin 30
+#define CJShowMoreBtnW (self.bounds.size.height + 30)
 
-@interface WAISegmentBar()<UICollectionViewDelegate>
+@interface CJSegmentBar()<UICollectionViewDelegate>
 @property (nonatomic,weak) UIScrollView * contentView;
 @property (nonatomic,strong) NSMutableArray <UIButton *>* itemBtns;
 
 @property (nonatomic,weak) UIView * indicatorView;
 
-@property (nonatomic,strong) WAISegmentBarConfig * config;
+@property (nonatomic,strong) CJSegmentBarConfig * config;
 
 @property (nonatomic,weak) UIButton * lastBtn;
 
-@property (nonatomic,strong) WAISegmentRLButton * showMoreBtn;
+@property (nonatomic,strong) CJSegmentRLButton * showMoreBtn;
 
 @property (nonatomic,strong,nonnull) UIView * coverView;
 
-@property (nonatomic,strong) WAIMenuBarShowDetailVC * showDetailVC;
+@property (nonatomic,strong) CJMenuBarShowDetailVC * showDetailVC;
 
 @end
 
-@implementation WAISegmentBar
+@implementation CJSegmentBar
 #pragma mark -懒加载
 -(NSMutableArray<UIButton *> *)itemBtns{
     if (!_itemBtns) {
@@ -44,6 +44,7 @@
     if (!_contentView) {
         UIScrollView * scrollView = [[UIScrollView alloc]init];
         scrollView.showsHorizontalScrollIndicator = NO;
+        scrollView.frame = self.bounds;
         [self addSubview:scrollView];
         _contentView = scrollView;
     }
@@ -51,7 +52,7 @@
 }
 -(UIView *)indicatorView{
     if (!_indicatorView) {
-        UIView * indicatorView = [[UIView alloc]initWithFrame:CGRectMake(0, self.WAI_height - self.config.indicatorHeight, 0, self.config.indicatorHeight)];
+        UIView * indicatorView = [[UIView alloc]initWithFrame:CGRectMake(0, self.CJ_height - self.config.indicatorHeight, 0, self.config.indicatorHeight)];
         indicatorView.backgroundColor = self.config.indicatorColor;
         [self.contentView addSubview:indicatorView];
         _indicatorView = indicatorView;
@@ -60,20 +61,20 @@
     return _indicatorView;
 }
 
--(WAIMenuBarShowDetailVC *)showDetailVC{
+-(CJMenuBarShowDetailVC *)showDetailVC{
     if (!_showDetailVC) {
-        _showDetailVC = [[WAIMenuBarShowDetailVC alloc]init];
+        _showDetailVC = [[CJMenuBarShowDetailVC alloc]init];
         _showDetailVC.collectionView.delegate = self;
     }
     if (_showDetailVC.collectionView.superview != self.superview) {
-        _showDetailVC.collectionView.frame = CGRectMake(0, CGRectGetMaxY(self.frame), self.WAI_width, 0);
+        _showDetailVC.collectionView.frame = CGRectMake(0, CGRectGetMaxY(self.frame), self.CJ_width, 0);
         [self.superview addSubview:_showDetailVC.collectionView];
     }
     return _showDetailVC;
 }
 -(UIView *)coverView{
     if (!_coverView) {
-        _coverView = [[UIView alloc]initWithFrame:CGRectMake(0, self.WAI_y + self.WAI_height, self.WAI_width, 0)];
+        _coverView = [[UIView alloc]initWithFrame:CGRectMake(0, self.CJ_y + self.CJ_height, self.CJ_width, 0)];
         _coverView.backgroundColor = [UIColor colorWithRed:55 / 255. green:55 / 255. blue:55 / 255. alpha:0.4];
         UITapGestureRecognizer * gestR = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideDetailPane)];
         [_coverView addGestureRecognizer:gestR];
@@ -83,11 +84,11 @@
     }
     return _coverView;
 }
--(WAISegmentRLButton *)showMoreBtn{
+-(CJSegmentRLButton *)showMoreBtn{
     if (!_showMoreBtn) {
         UIImage * showImage = [UIImage imageNamed:@"icon_radio_show"];
         UIImage * hideImage = [UIImage imageNamed:@"icon_radio_hide"];
-        _showMoreBtn = [[WAISegmentRLButton alloc]init];
+        _showMoreBtn = [[CJSegmentRLButton alloc]init];
         [_showMoreBtn setTitle:@"更多" forState:UIControlStateNormal];
         [_showMoreBtn setImage:showImage forState:UIControlStateNormal];
         [_showMoreBtn setTitle:@"收起" forState:UIControlStateSelected];
@@ -106,35 +107,35 @@
         return _showMoreBtn;
 }
 
-+(instancetype)segmentBarWithConfig:(WAISegmentBarConfig *)config{
-    CGRect defaultFrame = CGRectMake(0, 0,WAIScreenWidth, 40);
-    WAISegmentBar * segmentBar = [[WAISegmentBar alloc]initWithFrame:defaultFrame];
++(instancetype)segmentBarWithConfig:(CJSegmentBarConfig *)config{
+    CGRect defaultFrame = CGRectMake(0, 0,CJScreenWidth, 40);
+    CJSegmentBar * segmentBar = [[CJSegmentBar alloc]initWithFrame:defaultFrame];
     segmentBar.config = config;
     return segmentBar;
 }
 +(instancetype)segmentBarWithFrame:(CGRect)frame{
-    WAISegmentBar * segmentBar = [[WAISegmentBar alloc]initWithFrame:frame];
+    CJSegmentBar * segmentBar = [[CJSegmentBar alloc]initWithFrame:frame];
     return segmentBar;
 }
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.config = [WAISegmentBarConfig defaultConfig];
+        self.config = [CJSegmentBarConfig defaultConfig];
     }
     return self;
 }
--(void)updateWithConfig:(void (^)(WAISegmentBarConfig * _Nonnull))configBlock{
+-(void)updateWithConfig:(void (^)(CJSegmentBarConfig * _Nonnull))configBlock{
     if (configBlock) {
         configBlock(self.config);
     }
     self.config = self.config;
 }
--(void)setConfig:(WAISegmentBarConfig *)config{
+-(void)setConfig:(CJSegmentBarConfig *)config{
     _config = config;
     
     self.indicatorView.backgroundColor = config.indicatorColor;
-    self.indicatorView.WAI_height = config.indicatorHeight;
+    self.indicatorView.CJ_height = config.indicatorHeight;
     self.backgroundColor = config.segmentBarBackColor;
         for (UIButton * btn in self.itemBtns) {
             [btn setTitleColor:self.config.itemNormalColor forState:UIControlStateNormal];
@@ -151,26 +152,24 @@
     
 }
 
-- (void)setSegmentMs:(NSArray<id<WAISegmentModelProtocol>> *)segmentMs{
+- (void)setSegmentMs:(NSArray<id<CJSegmentModelProtocol>> *)segmentMs{
     _segmentMs = segmentMs;
     if (self.config.isShowMore) {
         self.showDetailVC.items = segmentMs;
-        self.showDetailVC.collectionView.WAI_height = 0;
+        self.showDetailVC.collectionView.CJ_height = 0;
     }
     [self.itemBtns makeObjectsPerformSelector:@selector(removeFromSuperview)];
     self.itemBtns = nil;
     self.lastBtn = nil;
     [self.indicatorView removeFromSuperview];
     self.indicatorView = nil;
-    
-    for (NSObject <WAISegmentModelProtocol> * segM in segmentMs) {
+    for (NSObject <CJSegmentModelProtocol> * segM in segmentMs) {
         UIButton * btn = [[UIButton alloc]init];
         if (segM.segID == -1) {
             btn.tag = self.itemBtns.count;
         }else{
             btn.tag = segM.segID;
         }
-        
         [btn addTarget:self action:@selector(btnDidClick:) forControlEvents:UIControlEventTouchUpInside];
         [btn setTitle:segM.segContent forState:UIControlStateNormal];
         [btn setTitleColor:self.config.itemNormalColor forState:UIControlStateNormal];
@@ -191,7 +190,6 @@
     _items = items;
     [self.itemBtns makeObjectsPerformSelector:@selector(removeFromSuperview)];
     self.itemBtns = nil;
-    
     for (NSString * item in items) {
         UIButton * btn = [[UIButton alloc]init];
         btn.tag = self.itemBtns.count;
@@ -200,7 +198,6 @@
         [btn setTitleColor:self.config.itemNormalColor forState:UIControlStateNormal];
         [btn setTitleColor:self.config.itemSelectColor forState:UIControlStateSelected];
         btn.titleLabel.font = self.config.itemNormalFont;
-//        btn.backgroundColor = WAIRandomColor;
         [self.contentView addSubview:btn];
         [self.itemBtns addObject:btn];
     }
@@ -220,12 +217,12 @@
     self.lastBtn.selected = NO;
     self.lastBtn.titleLabel.font = self.config.itemSelectFont;
     [self.lastBtn sizeToFit];
-    self.lastBtn.WAI_height = self.contentView.WAI_height - self.config.indicatorHeight;
+    self.lastBtn.CJ_height = self.contentView.CJ_height - self.config.indicatorHeight;
     
     btn.selected = YES;
     btn.titleLabel.font = self.config.itemNormalFont;
     [btn sizeToFit];
-    btn.WAI_height = self.contentView.WAI_height - self.config.indicatorHeight;
+    btn.CJ_height = self.contentView.CJ_height - self.config.indicatorHeight;
     self.lastBtn = btn;
     
     if (self.config.isShowMore) {
@@ -242,18 +239,16 @@
                                     NSFontAttributeName:btn.titleLabel.font
                                     };
         CGSize size = [text sizeWithAttributes:fontDict];
-        
-        self.indicatorView.WAI_y = self.contentView.WAI_height - self.config.indicatorHeight;
-        self.indicatorView.WAI_width = size.width + self.config.indicatorExtraW;
-        self.indicatorView.WAI_centerX = btn.WAI_centerX;
+        self.indicatorView.CJ_y = self.contentView.CJ_height - self.config.indicatorHeight;
+        self.indicatorView.CJ_width = size.width + self.config.indicatorExtraW;
+        self.indicatorView.CJ_centerX = btn.CJ_centerX;
     }];
-    
-    CGFloat scrollX = btn.WAI_centerX - self.contentView.WAI_width * 0.5;
+    CGFloat scrollX = btn.CJ_centerX - self.contentView.CJ_width * 0.5;
     if (scrollX < 0) {
         scrollX = 0;
     }
-    if (scrollX > self.contentView.contentSize.width - self.contentView.WAI_width) {
-        scrollX = self.contentView.contentSize.width - self.contentView.WAI_width;
+    if (scrollX > self.contentView.contentSize.width - self.contentView.CJ_width) {
+        scrollX = self.contentView.contentSize.width - self.contentView.CJ_width;
     }
     [self.contentView setContentOffset:CGPointMake(scrollX, 0) animated:YES];
 }
@@ -270,8 +265,8 @@
 - (void)hideDetailPane{
     self.showMoreBtn.selected = NO;
     [UIView animateWithDuration:0.2 animations:^{
-        self.showDetailVC.collectionView.WAI_height = 0;
-        self.coverView.WAI_height = 0;
+        self.showDetailVC.collectionView.CJ_height = 0;
+        self.coverView.CJ_height = 0;
     } completion:^(BOOL finished) {
         self.coverView.hidden = YES;
         self.showDetailVC.collectionView.hidden = YES;
@@ -282,11 +277,11 @@
     self.showDetailVC.collectionView.hidden = NO;
     self.coverView.hidden = NO;
     [UIView animateWithDuration:0.2 animations:^{
-        self.showDetailVC.collectionView.WAI_height = self.showDetailVC.expectedHeight;
-        self.coverView.WAI_height = WAIScreenHeight;
+        self.showDetailVC.collectionView.CJ_height = self.showDetailVC.expectedHeight;
+        self.coverView.CJ_height = CJScreenHeight;
     }];
 }
-- (void)showOrHide:(WAISegmentRLButton *)btn{
+- (void)showOrHide:(CJSegmentRLButton *)btn{
     btn.selected = !btn.selected;
     if (btn.selected) {
         [self showDetailPane];
@@ -299,10 +294,10 @@
     self.contentView.frame = self.bounds;
     if (!self.config.isShowMore) {
         self.contentView.frame = self.bounds;
-        self.showMoreBtn.WAI_width = -1;
+        self.showMoreBtn.CJ_width = -1;
     }else{
-        self.contentView.frame = CGRectMake(0, 0, self.WAI_width - WAIShowMoreBtnW, self.WAI_height);
-        self.showMoreBtn.frame = CGRectMake(self.WAI_width - WAIShowMoreBtnW, 0, WAIShowMoreBtnW, self.WAI_height);
+        self.contentView.frame = CGRectMake(0, 0, self.CJ_width - CJShowMoreBtnW, self.CJ_height);
+        self.showMoreBtn.frame = CGRectMake(self.CJ_width - CJShowMoreBtnW, 0, CJShowMoreBtnW, self.CJ_height);
     }
 //    更多分割线设置位置
     NSString * text = self.showMoreBtn.titleLabel.text;
@@ -310,27 +305,28 @@
                                 NSFontAttributeName:self.showMoreBtn.titleLabel.font
                                 };
     CGSize size = [text sizeWithAttributes:attrDict];
-    self.showMoreBtn.subviews.lastObject.WAI_height = size.height + 6;
-    self.showMoreBtn.subviews.lastObject.WAI_centerY = self.showMoreBtn.WAI_height * 0.5;
+    self.showMoreBtn.subviews.lastObject.CJ_height = size.height + 6;
+    self.showMoreBtn.subviews.lastObject.CJ_centerY = self.showMoreBtn.CJ_height * 0.5;
     
     CGFloat totalBtnWidth = 0;
     for (UIButton * btn in self.itemBtns) {
         [btn sizeToFit];
-        totalBtnWidth += btn.WAI_width;
+        totalBtnWidth += btn.CJ_width;
     }
-    CGFloat caculateMargin = (self.contentView.WAI_width - totalBtnWidth) / (self.segmentMs.count + 1);
+    CGFloat caculateMargin = (self.contentView.CJ_width - totalBtnWidth) / (self.segmentMs.count + 1);
     
     caculateMargin = caculateMargin < self.config.limitMargin ? self.config.limitMargin : caculateMargin;
     
     CGFloat btnY = 0;
-    CGFloat btnHeight = self.contentView.WAI_height - self.config.indicatorHeight;
+    CGFloat btnHeight = self.contentView.CJ_height - self.config.indicatorHeight;
     UIButton * lastButton;
     
     for (UIButton * btn in self.itemBtns) {
         CGFloat btnX = CGRectGetMaxX(lastButton.frame) + caculateMargin;
-        btn.WAI_y = btnY;
-        btn.WAI_x = btnX;
-        btn.WAI_height = btnHeight;
+        [btn sizeToFit];
+        btn.CJ_y = btnY;
+        btn.CJ_x = btnX;
+        btn.CJ_height = btnHeight;
         lastButton = btn;
     }
     
@@ -339,11 +335,11 @@
         return;
     }
     
-    UIButton * btn = self.itemBtns[self.selectIndex];
-    self.indicatorView.WAI_width = btn.WAI_width + self.config.indicatorExtraW * 2;
-    self.indicatorView.WAI_centerX = btn.WAI_centerX;
-    self.indicatorView.WAI_height = self.config.indicatorHeight;
-    self.indicatorView.WAI_y = self.contentView.WAI_height - self.indicatorView.WAI_height;
+//    UIButton * btn = self.itemBtns[self.selectIndex];
+//    self.indicatorView.CJ_y = self.contentView.CJ_height - self.indicatorView.CJ_height;
+//    self.indicatorView.CJ_width = btnsize.width + self.config.indicatorExtraW * 2;
+//    self.indicatorView.CJ_height = self.config.indicatorHeight;
+//    self.indicatorView.CJ_centerX = btn.CJ_centerX;
     
 }
 #pragma mark <UICollectionViewDelegate>

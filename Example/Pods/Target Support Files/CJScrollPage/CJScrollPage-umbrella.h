@@ -11,14 +11,15 @@
 #endif
 
 #import "NSString+SegmentModelProtocol.h"
-#import "WAIMenuBarShowDetailVC.h"
-#import "WAIMenuCell.h"
-#import "WAIScrollPageHeader.h"
-#import "WAISegmentBar.h"
-#import "WAISegmentBarConfig.h"
-#import "WAISegmentModelProtocol.h"
-#import "WAISegmentRLButton.h"
-#import "WAISegmentViewController.h"
+#import "UIView+CJExtension.h"
+#import "CJMenuBarShowDetailVC.h"
+#import "CJMenuCell.h"
+#import "CJScrollPageHeader.h"
+#import "CJSegmentBar.h"
+#import "CJSegmentBarConfig.h"
+#import "CJSegmentModelProtocol.h"
+#import "CJSegmentRLButton.h"
+#import "CJSegmentViewController.h"
 
 FOUNDATION_EXPORT double CJScrollPageVersionNumber;
 FOUNDATION_EXPORT const unsigned char CJScrollPageVersionString[];

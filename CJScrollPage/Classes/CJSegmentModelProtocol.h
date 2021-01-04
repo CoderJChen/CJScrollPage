@@ -1,5 +1,5 @@
 //
-//  WAISegmentModelProtocol.h
+//  CJSegmentModelProtocol.h
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol WAISegmentModelProtocol <NSObject>
+@protocol CJSegmentModelProtocol <NSObject>
 /**选项卡的ID，如果不设置， 默认从0开始*/
 @property(assign,nonatomic,readonly)NSInteger segID;
 /**

@@ -1,5 +1,5 @@
 //
-//  WAISegmentRLButton.h
+//  CJSegmentRLButton.h
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/28.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WAISegmentRLButton : UIButton
+@interface CJSegmentRLButton : UIButton
 
 @end
 

@@ -1,5 +1,5 @@
 //
-//  WAIMenuBarShowDetailVC.h
+//  CJMenuBarShowDetailVC.h
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/28.
@@ -10,10 +10,10 @@
 #import "NSString+SegmentModelProtocol.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WAIMenuBarShowDetailVC : UICollectionViewController
+@interface CJMenuBarShowDetailVC : UICollectionViewController
 
 @property(assign,nonatomic) CGFloat  expectedHeight;
-@property (nonatomic,strong) NSArray <id <WAISegmentModelProtocol>> * items;
+@property (nonatomic,strong) NSArray <id <CJSegmentModelProtocol>> * items;
 
 @end
 

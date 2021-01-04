@@ -7,19 +7,19 @@
 //
 
 #import "CJViewController.h"
-#import <CJScrollPage/WAISegmentBar.h>
-#import <CJScrollPage/UIView+WAIExtension.h>
-@interface CJViewController ()<WAISegmentBarDelegate,UIScrollViewDelegate>
+#import <CJScrollPage/CJSegmentBar.h>
+#import <CJScrollPage/UIView+CJExtension.h>
+@interface CJViewController ()<CJSegmentBarDelegate,UIScrollViewDelegate>
 
-@property (nonatomic,strong) WAISegmentBar * segmentBar;
+@property (nonatomic,strong) CJSegmentBar * segmentBar;
 
 @property (nonatomic, weak) UIScrollView *contentScrollView;
 @end
 
 @implementation CJViewController
--(WAISegmentBar *)segmentBar{
+-(CJSegmentBar *)segmentBar{
     if (!_segmentBar) {
-        _segmentBar = [WAISegmentBar segmentBarWithConfig:[WAISegmentBarConfig defaultConfig]];
+        _segmentBar = [CJSegmentBar segmentBarWithConfig:[CJSegmentBarConfig defaultConfig]];
         _segmentBar.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 40);
         _segmentBar.delegate = self;
     }
@@ -37,7 +37,7 @@
 }
 - (void)setUpInit{
     // 0. 初始化界面
-    //    self.view.backgroundColor = WAIColor(225, 225, 225);
+    //    self.view.backgroundColor = CJColor(225, 225, 225);
     self.automaticallyAdjustsScrollViewInsets = NO;
 
     // 1. 添加子控制器
@@ -51,7 +51,7 @@
     scrollView.scrollsToTop = NO;
     scrollView.bounces = NO;
     self.contentScrollView = scrollView;
-    self.contentScrollView.contentSize = CGSizeMake(self.contentScrollView.width * self.childViewControllers.count, 0);
+    self.contentScrollView.contentSize = CGSizeMake(self.contentScrollView.CJ_width * self.childViewControllers.count, 0);
     [self.view addSubview:scrollView];
 
 }
@@ -87,20 +87,20 @@
 - (void)showControllerView:(NSInteger)index {
 
     UIView *view = self.childViewControllers[index].view;
-    CGFloat contentViewW = self.contentScrollView.width;
-    view.frame = CGRectMake(contentViewW * index, 0, contentViewW, self.contentScrollView.height);
+    CGFloat contentViewW = self.contentScrollView.CJ_width;
+    view.frame = CGRectMake(contentViewW * index, 0, contentViewW, self.contentScrollView.CJ_height);
     [self.contentScrollView addSubview:view];
     [self.contentScrollView setContentOffset:CGPointMake(contentViewW * index, 0) animated:YES];
 
 }
 
-- (void)segmentBar:(WAISegmentBar *)segmentBar didSelectedWithIndex:(NSInteger)toIndex fromIndex:(NSInteger)fromIndex{
+- (void)segmentBar:(CJSegmentBar *)segmentBar didSelectedWithIndex:(NSInteger)toIndex fromIndex:(NSInteger)fromIndex{
     [self showControllerView:toIndex];
 }
 
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
 
-    NSInteger page = scrollView.contentOffset.x / scrollView.width;
+    NSInteger page = scrollView.contentOffset.x / scrollView.CJ_width;
     self.segmentBar.selectIndex = page;
 }
 @end

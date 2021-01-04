@@ -1,45 +1,45 @@
 //
-//  WAIMenuBarShowDetailVC.m
+//  CJMenuBarShowDetailVC.m
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/28.
 //  Copyright © 2019 Eric. All rights reserved.
 //
 
-#import "WAIMenuBarShowDetailVC.h"
-#import "WAIMenuCell.h"
-#import "WAIScrollPageHeader.h"
+#import "CJMenuBarShowDetailVC.h"
+#import "CJMenuCell.h"
+#import "CJScrollPageHeader.h"
 
-#define WAIRowCount 3
-#define WAIMargin 6
-#define WAICellH 30
+#define CJRowCount 3
+#define CJMargin 6
+#define CJCellH 30
 
-@interface WAIMenuBarShowDetailVC ()
+@interface CJMenuBarShowDetailVC ()
 
 @end
 
-@implementation WAIMenuBarShowDetailVC
+@implementation CJMenuBarShowDetailVC
 
 static NSString * const reuseIdentifier = @"menuCell";
 
--(void)setItems:(NSArray<id<WAISegmentModelProtocol>> *)items{
+-(void)setItems:(NSArray<id<CJSegmentModelProtocol>> *)items{
     _items = items;
     
-    NSInteger rows = (_items.count + (WAIRowCount - 1))/WAIRowCount;
-    CGFloat height = rows * (WAICellH + WAIMargin);
-    self.collectionView.WAI_height = height;
+    NSInteger rows = (_items.count + (CJRowCount - 1))/CJRowCount;
+    CGFloat height = rows * (CJCellH + CJMargin);
+    self.collectionView.CJ_height = height;
     self.expectedHeight = height;
     [self.collectionView reloadData];
 }
 - (instancetype)initWithCollectionViewLayout:(UICollectionViewLayout *)layout{
     
         UICollectionViewFlowLayout * flowLayout = [[UICollectionViewFlowLayout alloc]init];
-        CGFloat width = (WAIScreenWidth - WAIMargin * (WAIRowCount + 1))/WAIRowCount;
-        CGFloat height = WAICellH;
-        flowLayout.minimumLineSpacing = WAIMargin;
-        flowLayout.minimumInteritemSpacing = WAIMargin;
+        CGFloat width = (CJScreenWidth - CJMargin * (CJRowCount + 1))/CJRowCount;
+        CGFloat height = CJCellH;
+        flowLayout.minimumLineSpacing = CJMargin;
+        flowLayout.minimumInteritemSpacing = CJMargin;
         flowLayout.itemSize = CGSizeMake(width, height);
-//        flowLayout.sectionInset = UIEdgeInsetsMake(WAIMargin*0.5, 0, 0, 0);
+//        flowLayout.sectionInset = UIEdgeInsetsMake(CJMargin*0.5, 0, 0, 0);
     
     return [super initWithCollectionViewLayout:flowLayout];
 }
@@ -49,7 +49,7 @@ static NSString * const reuseIdentifier = @"menuCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([WAIMenuCell class]) bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
+    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([CJMenuCell class]) bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     
     // Do any additional setup after loading the view.
@@ -62,7 +62,7 @@ static NSString * const reuseIdentifier = @"menuCell";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    WAIMenuCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    CJMenuCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     cell.menueLabel.text = (NSString *)self.items[indexPath.row];
     return cell;
 }

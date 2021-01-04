@@ -1,14 +1,14 @@
 //
-//  WAIMenuCell.m
+//  CJMenuCell.m
 //  CJFM
 //
 //  Created by 陈杰 on 2019/1/28.
 //  Copyright © 2019 Eric. All rights reserved.
 //
 
-#import "WAIMenuCell.h"
+#import "CJMenuCell.h"
 
-@implementation WAIMenuCell
+@implementation CJMenuCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
