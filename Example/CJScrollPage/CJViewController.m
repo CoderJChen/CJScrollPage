@@ -7,7 +7,7 @@
 //
 
 #import "CJViewController.h"
-#import <CJScrollPage/CJSegmentBar.h>
+#import <CJScrollPage/CJScrollPage.h>
 #import <CJScrollPage/UIView+CJExtension.h>
 @interface CJViewController ()<CJSegmentBarDelegate,UIScrollViewDelegate>
 

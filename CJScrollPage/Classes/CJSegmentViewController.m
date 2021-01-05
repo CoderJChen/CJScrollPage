@@ -7,7 +7,7 @@
 //
 
 #import "CJSegmentViewController.h"
-#import "CJScrollPageHeader.h"
+#import "CJScrollPageConst.h"
 
 @interface CJSegmentViewController ()<CJSegmentBarDelegate,UIScrollViewDelegate>
 @property (nonatomic,weak) UIScrollView * contentView;

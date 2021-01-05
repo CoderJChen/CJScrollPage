@@ -8,7 +8,7 @@
 
 #import "CJMenuBarShowDetailVC.h"
 #import "CJMenuCell.h"
-#import "CJScrollPageHeader.h"
+#import "CJScrollPageConst.h"
 
 #define CJRowCount 3
 #define CJMargin 6

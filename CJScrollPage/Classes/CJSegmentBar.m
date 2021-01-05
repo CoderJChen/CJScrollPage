@@ -9,7 +9,7 @@
 #import "CJSegmentBar.h"
 #import "CJSegmentRLButton.h"
 #import "CJMenuBarShowDetailVC.h"
-#import "CJScrollPageHeader.h"
+#import "CJScrollPageConst.h"
 
 #define CJMinMargin 30
 #define CJShowMoreBtnW (self.bounds.size.height + 30)
