@@ -1,5 +1,7 @@
 PODS:
-  - CJScrollPage (1.0.0)
+  - CJScrollPage (1.0.1):
+    - CJScrollPage/scrollpage (= 1.0.1)
+  - CJScrollPage/scrollpage (1.0.1)
 
 DEPENDENCIES:
   - CJScrollPage (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CJScrollPage: 37b621db50f97c33240078835192426e102b45b9
+  CJScrollPage: 34756f895fdadc22e71f16132927b6d37da6656a
 
 PODFILE CHECKSUM: 0981b63bb6341b3c1e81ce1a5f438d4bb70cc160
 

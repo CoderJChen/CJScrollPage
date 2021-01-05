@@ -5,7 +5,7 @@
 //  Created by Eric on 2021/1/4.
 //
 
-#import "CJSegmentViewController.h"
+#import "CJScrollPage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
