@@ -25,6 +25,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DE10CBD0902A3C2C2E18E477 /* Pods_CJScrollPage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929824795FD740E12A5E9002 /* Pods_CJScrollPage_Tests.framework */; };
 		F50ADE5F25A2F75E000E9DD4 /* SegmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F50ADE5D25A2F75E000E9DD4 /* SegmentVC.m */; };
+		F5BA05BF25A5AABF00B7B51E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BA05BE25A5AABF00B7B51E /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		BD1E84E952AA7F14FFAD94E0 /* Pods_CJScrollPage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJScrollPage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50ADE5D25A2F75E000E9DD4 /* SegmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentVC.m; sourceTree = "<group>"; };
 		F50ADE5E25A2F75E000E9DD4 /* SegmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentVC.h; sourceTree = "<group>"; };
+		F5BA05BD25A5AABF00B7B51E /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F5BA05BE25A5AABF00B7B51E /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		F6538FBAD6D42B539B31AE83 /* Pods-CJScrollPage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJScrollPage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CJScrollPage_Tests/Pods-CJScrollPage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBAEF519605F238238D7BD7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +145,8 @@
 				6003F5A6195388D20070C39A /* CJViewController.m */,
 				F50ADE5E25A2F75E000E9DD4 /* SegmentVC.h */,
 				F50ADE5D25A2F75E000E9DD4 /* SegmentVC.m */,
+				F5BA05BD25A5AABF00B7B51E /* UIView+Extension.h */,
+				F5BA05BE25A5AABF00B7B51E /* UIView+Extension.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -369,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BA05BF25A5AABF00B7B51E /* UIView+Extension.m in Sources */,
 				6003F59E195388D20070C39A /* CJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CJViewController.m in Sources */,
 				F50ADE5F25A2F75E000E9DD4 /* SegmentVC.m in Sources */,

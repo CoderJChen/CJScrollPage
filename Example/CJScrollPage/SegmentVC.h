@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SegmentVC : CJSegmentViewController
+@interface SegmentVC : UIViewController
 
 @end
 

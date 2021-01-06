@@ -49,7 +49,7 @@ static NSString * const reuseIdentifier = @"menuCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.collectionView registerNib:[UINib nibWithNibName:@"CJScrollPage.bundle/CJMenuCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
+    [self.collectionView registerNib:[UINib nibWithNibName:@"CJMenuCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     
     // Do any additional setup after loading the view.
