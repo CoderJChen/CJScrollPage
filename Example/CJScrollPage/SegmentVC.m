@@ -23,7 +23,6 @@
         config.segmentBarBackColor = [UIColor yellowColor];
         _segmentBar = [CJSegmentBar segmentBarWithConfig:config];
         _segmentBar.delegate = self;
-        _segmentBar.y = 88;
     }
     return _segmentBar;
 }
@@ -67,7 +66,6 @@
         UIViewController *vc = [[UIViewController alloc] init];
 //        vc.view.backgroundColor = ;
         [self addChildViewController:vc];
-        NSLog(@"todayFireVC : %@",items[i]);
     }
     // 2. 添加内容视图
     [self.view addSubview:self.contentScrollView];
