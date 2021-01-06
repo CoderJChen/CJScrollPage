@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CJScrollPage/*'
-#  s.subspec 'scrollpage' do |ss|
-#      ss.source_files = 'CJScrollPage/CJMenuBarShowDetailVC.{h,m}','CJScrollPage/CJMenuCell.{*}','CJScrollPage/CJScrollPageConst.{h,m}','CJScrollPage/CJSegmentBar.{h,m}','CJScrollPage/CJSegmentBarConfig.{h,m}','CJScrollPage/CJSegmentModelProtocol.{h,m}','CJScrollPage/CJSegmentRLButton.{h,m}','CJScrollPage/NSString+SegmentModelProtocol.{h,m}','CJScrollPage/UIView+CJExtension.{h,m}','CJScrollPage/CJSegmentViewController.{h,m}'
-#    end
-   s.resource_bundles = {
-     'CJScrollPage' => ['CJScrollPage/*.{png,xib}']
-   }
+  s.source_files = 'CJScrollPage/CJScrollPage.h'
+  s.subspec 'ScrollPage' do |ss|
+      ss.source_files = 'CJScrollPage/CJMenuBarShowDetailVC.{h,m}','CJScrollPage/CJMenuCell.{*}','CJScrollPage/CJScrollPageConst.{h,m}','CJScrollPage/CJSegmentBar.{h,m}','CJScrollPage/CJSegmentBarConfig.{h,m}','CJScrollPage/CJSegmentModelProtocol.{h,m}','CJScrollPage/CJSegmentRLButton.{h,m}','CJScrollPage/NSString+SegmentModelProtocol.{h,m}','CJScrollPage/UIView+CJExtension.{h,m}','CJScrollPage/CJSegmentViewController.{h,m}'
+    end
+#   s.resource_bundles = {
+#     'CJScrollPage' => ['CJScrollPage/*.{png,xib}']
+#   }
 
 #   s.public_header_files = 'CJScrollPage/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
