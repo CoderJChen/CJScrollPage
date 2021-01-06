@@ -13,16 +13,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-//    SegmentVC * segmentVC = [[SegmentVC alloc] init];
-//    self.window.rootViewController = segmentVC;
-//    [segmentVC setUpWithItems:@[@"推荐", @"订阅", @"历史",@"推荐", @"订阅", @"历史"] childVC:@[[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init]] andSegBarPositionTop:88 andSegmentH:44];
-//    [segmentVC.segmentBar updateWithConfig:^(CJSegmentBarConfig * _Nonnull config) {
-//        config.segmentBarBackColor = [UIColor greenColor];
-//        config.itemSelectColor = [UIColor purpleColor];
-//
-//    }];
-//    [self.window makeKeyWindow];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    SegmentVC * segmentVC = [[SegmentVC alloc] init];
+    self.window.rootViewController = segmentVC;
+    [segmentVC setUpWithItems:@[@"推荐", @"订阅", @"历史",@"推荐", @"订阅", @"历史"] childVC:@[[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init],[[UIViewController alloc]init]] andSegBarPositionTop:88 andSegmentH:44];
+    [segmentVC.segmentBar updateWithConfig:^(CJSegmentBarConfig * _Nonnull config) {
+        config.segmentBarBackColor = [UIColor greenColor];
+        config.itemSelectColor = [UIColor purpleColor];
+
+    }];
+    [self.window makeKeyWindow];
     return YES;
 }
 

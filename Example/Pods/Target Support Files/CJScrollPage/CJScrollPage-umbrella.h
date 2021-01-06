@@ -20,6 +20,7 @@
 #import "CJSegmentRLButton.h"
 #import "NSString+SegmentModelProtocol.h"
 #import "UIView+CJExtension.h"
+#import "CJSegmentViewController.h"
 
 FOUNDATION_EXPORT double CJScrollPageVersionNumber;
 FOUNDATION_EXPORT const unsigned char CJScrollPageVersionString[];
