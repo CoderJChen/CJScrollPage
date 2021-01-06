@@ -6,5 +6,6 @@
 
 #define CJScreenWidth   [UIScreen mainScreen].bounds.size.width
 #define CJScreenHeight  [UIScreen mainScreen].bounds.size.height
+#define CJXibBundle [NSBundle bundleForClass:[self class]]
 
 #endif

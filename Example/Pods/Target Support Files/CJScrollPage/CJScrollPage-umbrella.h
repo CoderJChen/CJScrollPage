@@ -10,17 +10,17 @@
 #endif
 #endif
 
-#import "CJScrollPage.h"
 #import "CJMenuBarShowDetailVC.h"
 #import "CJMenuCell.h"
+#import "CJScrollPage.h"
 #import "CJScrollPageConst.h"
 #import "CJSegmentBar.h"
 #import "CJSegmentBarConfig.h"
 #import "CJSegmentModelProtocol.h"
 #import "CJSegmentRLButton.h"
+#import "CJSegmentViewController.h"
 #import "NSString+SegmentModelProtocol.h"
 #import "UIView+CJExtension.h"
-#import "CJSegmentViewController.h"
 
 FOUNDATION_EXPORT double CJScrollPageVersionNumber;
 FOUNDATION_EXPORT const unsigned char CJScrollPageVersionString[];
