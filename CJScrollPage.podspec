@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CJScrollPage/*'
   s.subspec 'ScrollPage' do |ss|
       ss.source_files = 'CJScrollPage/CJMenuBarShowDetailVC.{h,m}','CJScrollPage/CJMenuCell.{h,m}','CJScrollPage/CJScrollPageConst.{h,m}','CJScrollPage/CJSegmentBar.{h,m}','CJScrollPage/CJSegmentBarConfig.{h,m}','CJScrollPage/CJSegmentModelProtocol.{h,m}','CJScrollPage/CJSegmentRLButton.{h,m}','CJScrollPage/NSString+SegmentModelProtocol.{h,m}','CJScrollPage/UIView+CJExtension.{h,m}','CJScrollPage/CJSegmentViewController.{h,m}'
-      ss.resources = 'CJScrollPage/*.xib'
+      ss.resources = 'CJScrollPage/*.{xib}'
     end
 #   s.resource_bundles = {
 #     'CJScrollPage' => ['CJScrollPage/*.{png,xib}']
