@@ -8,40 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		08AA7862AEA41B2182EADBE841B03D7A /* Pods-CJScrollPage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214939EB76E8620F6F7A1C77E152C26 /* Pods-CJScrollPage_Example-dummy.m */; };
-		147894353141AF65484263402C54403D /* CJMenuBarShowDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EC716C28535E9BA25E31280E67EFC5 /* CJMenuBarShowDetailVC.m */; };
-		20ED41A62D21C9B312D6B4BCC259447C /* NSString+SegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6953D7C2DC233FA706B004217B96E1E /* NSString+SegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2117E71A6F76CB2C74A356C8E50F00FD /* CJScrollPageConst.h in Headers */ = {isa = PBXBuildFile; fileRef = F80D9535814D031065E8B7E7B91ADC07 /* CJScrollPageConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25F70DAF6B66AE351E3A29E3713469A1 /* CJSegmentRLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C49BAB1C1108F0B1379A8BB08816112 /* CJSegmentRLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26FFB8D56967DD6A5183AC0795E9DE7C /* CJSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E642108A6ABE51B29A3B7EA80CDF6CD /* CJSegmentBarConfig.m */; };
+		0A8C9A470852F6B2331A0B8C77E2C2D9 /* UIView+CJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADAEF4AF33E4A25A7F4EB77FF10C3DC /* UIView+CJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E988007137470FCD622D8E4A5771CF2 /* CJScrollPage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DEB5DEC700FFA4ED9C18C847F0E5C5A /* CJScrollPage.bundle */; };
+		164EA825B10A2BBB61AC9555604354A1 /* NSString+SegmentModelProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A779E2F00AE8841DCA9753DCBFE8B47 /* NSString+SegmentModelProtocol.m */; };
+		18AC02DC02DA0EB45B7BB3D332A481BA /* CJScrollPageConst.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE9B6F98ED4BD40EF6852E27D353FBF /* CJScrollPageConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211ECE84D4847DF03D2DC64C39B392DF /* CJSegmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6DAD78C1000D36A6BE071BCAB60DAD /* CJSegmentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E9B368781370BD1ADF38EEA93480ED8 /* Pods-CJScrollPage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A191991BF13606DED954C7025B54A /* Pods-CJScrollPage_Tests-dummy.m */; };
-		336B2D493E20209F1586B663DE56C4BE /* CJSegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC6F24F85D88C51B6CC5FE75446CF48 /* CJSegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34AF5828CD5644427F4341830ED3C0E2 /* CJMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F106199CB8431D64D61B4B5D332CFF70 /* CJMenuCell.m */; };
+		3C50A29139A70E108A7463ACF2F17FF1 /* CJSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCF50EF0C29BE327E7D3799E9D2B0EF /* CJSegmentViewController.m */; };
+		444A3B54F62AEC0C27B5A87A88DE59A4 /* CJScrollPage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BA29FEA4EB8807C5B4E453CD8477A0 /* CJScrollPage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45257DB3021EC0ECF1A2D7CD5AFCD79D /* Pods-CJScrollPage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C53F36CB64B39D6FDBE9ED0C9E66485C /* Pods-CJScrollPage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64F9BA4CD3DFB9CB5823184CE8B1B900 /* CJScrollPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871DF2C7A7E28A6ED2116F1D46DD7 /* CJScrollPage-dummy.m */; };
-		70476841B8E0CAC17E56B7F5D816E14B /* CJMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC57427B7FB0F51C007B4A9FC0C75DF /* CJMenuCell.m */; };
-		77106A89626F6CE95756D138F692F9FD /* CJSegmentRLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D339948CC5D58FE06753B1046B360 /* CJSegmentRLButton.m */; };
-		7B88B3A9FD8898E389A4A76D6078A25A /* CJScrollPage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B12940EB06276CEE6218A1C42C631C /* CJScrollPage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		834415653916E6F63F8C4298EA374A4C /* CJScrollPage.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2F63661A73A847361E67566D960223 /* CJScrollPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		855664E9A046CD03EC6489CDB99083D0 /* CJScrollPageConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EACB019E413BE467B567A341B571C1 /* CJScrollPageConst.m */; };
-		9256A4E85C03C350C2941BFA7942ADE0 /* CJSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4BAB8B68385E6BBAD7A5494DEB53F5 /* CJSegmentViewController.m */; };
-		96A63A8EB2E675A0D8CC7BA945FC03BB /* CJScrollPage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DEB5DEC700FFA4ED9C18C847F0E5C5A /* CJScrollPage.bundle */; };
-		9736BF15EE8D2E7A91E1DE034150C3E8 /* CJMenuBarShowDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 185810D861D1352CBEFB2C588180F635 /* CJMenuBarShowDetailVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99F45EC71A9CC3E68FED1DA099F4CE96 /* CJSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C24C8CC34D3BD511BC3496FE82882719 /* CJSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A9FA57B3F7637CF8AAE579006702112 /* NSString+SegmentModelProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BC374C26FBE58BC05AE5298F92EC6DA3 /* NSString+SegmentModelProtocol.m */; };
-		9FF6386B88159D60639D0D5FF2F7680A /* UIView+CJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF9F1BD39EBEF20077202B24684AE89 /* UIView+CJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1345D3F99A31DF3461CC43E686CBD21 /* CJSegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 111F02568A6C52600C07718FF225F916 /* CJSegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD5B47D755D95AC45347A88E21C5CC47 /* CJMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFFB4C6130F33F0250436CB55700639 /* CJMenuCell.xib */; };
+		4D97F008E221E0604D0A8D91A22F671D /* CJMenuBarShowDetailVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E005B856E3D8C62A0DE0B1A28C513A /* CJMenuBarShowDetailVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAAF1AC510B5F37A7364BA27331C105 /* CJMenuCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = B3A9A741AEE0813FDB1EE5F2003A9E30 /* CJMenuCell.xib */; };
+		52B6AF673C30B83185DF7041479ECB5F /* CJMenuBarShowDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B1E400897F62BB659DCD4A6581F72 /* CJMenuBarShowDetailVC.m */; };
+		68B366C338A42C07378074DC6C5B26FF /* CJSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A58BFE5005111BED12D1E415C021900 /* CJSegmentBarConfig.m */; };
+		6E5C7A1019ADC15CE3FEA0BF86CF9E0C /* CJSegmentRLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BF12FED5B9C17F9500AE9513B8B58 /* CJSegmentRLButton.m */; };
+		7884020FA6BCA1E2753CB0419F360E13 /* CJScrollPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 538E92D028CF7662E8C6B14331FF7E7B /* CJScrollPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D8F1222278F17C9F42B7611224B357 /* CJMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A9A741AEE0813FDB1EE5F2003A9E30 /* CJMenuCell.xib */; };
+		829FDB776473AB09E92E2365FBD58A7F /* CJSegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C3CCAF804FC6E84AD1434E2750B8AF9 /* CJSegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91AED95C5F2EE41F76FD3595F250674C /* NSString+SegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C89A3682D8505E2A52CCC8136B0E9777 /* NSString+SegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978F95E16B4018AD6891255CCB5E93C8 /* CJScrollPage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA3264B2624ECA70F91F671F802B2E /* CJScrollPage-dummy.m */; };
+		9E3B08966F2DA1F247E01FEA67D94F83 /* CJSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D459196C8227F580397795E2F64418 /* CJSegmentBar.m */; };
 		B2C1E43822D38FEE0092112040B4720C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BD1432198F525BEEE79CE379FC07B3C0 /* Pods-CJScrollPage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0D3D5E8D67A61B7658627014F5DFE4 /* Pods-CJScrollPage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C13CD0BC9825452CE2D8305CFBF971B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D5CC33DED6BF06664A5E49811559D8CA /* UIView+CJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A697F7BDF028258E54A8E2D210F43265 /* UIView+CJExtension.m */; };
-		D9D26D6A4DD89CDB3C06D52E45508D6D /* CJSegmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 478523B8C524CA0221728C5F1B30587F /* CJSegmentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCD6105042BF44B4DB726604DD498DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E2E0BDA839077C085388FF675D409D3C /* CJMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 67673275BBDA2AE03F29DF27C99A4373 /* CJMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E40A7E16B9384B150E676CF1AB50EE4C /* CJSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A08D79EFF7A1208D6B49689C7787 /* CJSegmentBar.m */; };
+		C851CEBBC683FA97D6837F7421020DCF /* CJSegmentRLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D870E598BE61A8ADC36B4CDE28D7DF7 /* CJSegmentRLButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0AAD15EE84C8578C60391C58A784931 /* CJMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E9384ED8C1487E632C89F98AFD3DCD16 /* CJMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA980D195A8BA16CE41A353E77C8ACC /* CJSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B555A1D0245F85F30A4A9366B590B41 /* CJSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4CEB539CC02C6FE09D0D452DCDE4629 /* UIView+CJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B445CDF30E375FE27B9BEDD49DD4A01E /* UIView+CJExtension.m */; };
+		F95281CF79E91CA33A40D6C322CD433A /* CJScrollPageConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E14225C459733D46167E4FFA790F8 /* CJScrollPageConst.m */; };
+		FA1CC3F558285CDA33C9966A5285A28F /* CJSegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A78EF86F7EF9E9F3CA0936C954886EF /* CJSegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF7204EC6F9EAA8E210FEFCC0F45C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C1B67457BB1A60D5D2B58D701FFA743 /* PBXContainerItemProxy */ = {
+		0E147BDC166595560873411982BDF0C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -55,7 +56,7 @@
 			remoteGlobalIDString = D08DE13667B62EE4A48B50C2E8DA42BE;
 			remoteInfo = CJScrollPage;
 		};
-		AB3CADE27518918A41C0967441555DCE /* PBXContainerItemProxy */ = {
+		B4CE600D59EDEA35D93F2067FD56822F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -65,61 +66,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0353C43405AC4E9E91F9A925A6ED6E4F /* ResourceBundle-CJScrollPage-CJScrollPage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CJScrollPage-CJScrollPage-Info.plist"; sourceTree = "<group>"; };
 		0904D9EB92956A0661AC21AE9CAE0794 /* Pods-CJScrollPage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJScrollPage_Example.modulemap"; sourceTree = "<group>"; };
-		09B12940EB06276CEE6218A1C42C631C /* CJScrollPage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-umbrella.h"; sourceTree = "<group>"; };
+		0A58BFE5005111BED12D1E415C021900 /* CJSegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentBarConfig.m; path = CJScrollPage/CJSegmentBarConfig.m; sourceTree = "<group>"; };
 		0B411018C8BB487674C29BEE9DA0AAC0 /* Pods-CJScrollPage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJScrollPage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D4DDD8F91D546263CBB7FEDC74EF971 /* Pods-CJScrollPage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Example-Info.plist"; sourceTree = "<group>"; };
-		111F02568A6C52600C07718FF225F916 /* CJSegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentBarConfig.h; path = CJScrollPage/CJSegmentBarConfig.h; sourceTree = "<group>"; };
 		114A191991BF13606DED954C7025B54A /* Pods-CJScrollPage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJScrollPage_Tests-dummy.m"; sourceTree = "<group>"; };
-		185810D861D1352CBEFB2C588180F635 /* CJMenuBarShowDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJMenuBarShowDetailVC.h; path = CJScrollPage/CJMenuBarShowDetailVC.h; sourceTree = "<group>"; };
+		1589360AAD6DDEF19978D0331D3B1137 /* CJScrollPage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJScrollPage-Info.plist"; sourceTree = "<group>"; };
 		1B0D3D5E8D67A61B7658627014F5DFE4 /* Pods-CJScrollPage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJScrollPage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1D4E14225C459733D46167E4FFA790F8 /* CJScrollPageConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJScrollPageConst.m; path = CJScrollPage/CJScrollPageConst.m; sourceTree = "<group>"; };
 		20D2017076B1341E9786EE8246CD2EBC /* Pods_CJScrollPage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJScrollPage_Tests.framework; path = "Pods-CJScrollPage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2214939EB76E8620F6F7A1C77E152C26 /* Pods-CJScrollPage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJScrollPage_Example-dummy.m"; sourceTree = "<group>"; };
+		268DC95B917EEAB6FA638B1725A1A560 /* CJScrollPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.debug.xcconfig; sourceTree = "<group>"; };
 		2A4BAE06DDCA79DFF1CA3D82CABC71C1 /* Pods-CJScrollPage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A4BF12FED5B9C17F9500AE9513B8B58 /* CJSegmentRLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentRLButton.m; path = CJScrollPage/CJSegmentRLButton.m; sourceTree = "<group>"; };
+		2B2E411F1610781392444EA6922CEA3D /* CJScrollPage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CJScrollPage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C6DAD78C1000D36A6BE071BCAB60DAD /* CJSegmentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentViewController.h; path = CJScrollPage/CJSegmentViewController.h; sourceTree = "<group>"; };
 		2E0F22F02A86B7F5BE547C49F2C16A9F /* Pods_CJScrollPage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJScrollPage_Example.framework; path = "Pods-CJScrollPage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E642108A6ABE51B29A3B7EA80CDF6CD /* CJSegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentBarConfig.m; path = CJScrollPage/CJSegmentBarConfig.m; sourceTree = "<group>"; };
-		37EC716C28535E9BA25E31280E67EFC5 /* CJMenuBarShowDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJMenuBarShowDetailVC.m; path = CJScrollPage/CJMenuBarShowDetailVC.m; sourceTree = "<group>"; };
+		35BA29FEA4EB8807C5B4E453CD8477A0 /* CJScrollPage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-umbrella.h"; sourceTree = "<group>"; };
+		3A78EF86F7EF9E9F3CA0936C954886EF /* CJSegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentModelProtocol.h; path = CJScrollPage/CJSegmentModelProtocol.h; sourceTree = "<group>"; };
+		3B555A1D0245F85F30A4A9366B590B41 /* CJSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentBar.h; path = CJScrollPage/CJSegmentBar.h; sourceTree = "<group>"; };
+		3BAF02000E2FF70B0949D6BCB58027FB /* CJScrollPage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJScrollPage.modulemap; sourceTree = "<group>"; };
+		3C3CCAF804FC6E84AD1434E2750B8AF9 /* CJSegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentBarConfig.h; path = CJScrollPage/CJSegmentBarConfig.h; sourceTree = "<group>"; };
 		3E260CF0271C6E5F8AE0B09CB97E9E5F /* Pods-CJScrollPage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		473E6A6860B72F38042732F36EA8AC25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		478523B8C524CA0221728C5F1B30587F /* CJSegmentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentViewController.h; path = CJScrollPage/CJSegmentViewController.h; sourceTree = "<group>"; };
 		481EED78317158E9BA10445083D789CC /* Pods-CJScrollPage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4DEB5DEC700FFA4ED9C18C847F0E5C5A /* CJScrollPage.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CJScrollPage.bundle; path = "CJScrollPage-CJScrollPage.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DFFB4C6130F33F0250436CB55700639 /* CJMenuCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CJMenuCell.xib; path = CJScrollPage/CJMenuCell.xib; sourceTree = "<group>"; };
+		507D49FB04F234A26DBB4284E84E21EB /* CJScrollPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.release.xcconfig; sourceTree = "<group>"; };
+		538E92D028CF7662E8C6B14331FF7E7B /* CJScrollPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJScrollPage.h; path = CJScrollPage/CJScrollPage.h; sourceTree = "<group>"; };
 		598643600EEB4AE96906CE2EF7A0F8D1 /* CJScrollPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJScrollPage.framework; path = CJScrollPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66A9A08D79EFF7A1208D6B49689C7787 /* CJSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentBar.m; path = CJScrollPage/CJSegmentBar.m; sourceTree = "<group>"; };
-		67673275BBDA2AE03F29DF27C99A4373 /* CJMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJMenuCell.h; path = CJScrollPage/CJMenuCell.h; sourceTree = "<group>"; };
-		6D378ED6C7A62928065644BBABFA1A62 /* CJScrollPage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJScrollPage.modulemap; sourceTree = "<group>"; };
-		71EACB019E413BE467B567A341B571C1 /* CJScrollPageConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJScrollPageConst.m; path = CJScrollPage/CJScrollPageConst.m; sourceTree = "<group>"; };
+		6BDA3264B2624ECA70F91F671F802B2E /* CJScrollPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJScrollPage-dummy.m"; sourceTree = "<group>"; };
+		72D459196C8227F580397795E2F64418 /* CJSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentBar.m; path = CJScrollPage/CJSegmentBar.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C4BAB8B68385E6BBAD7A5494DEB53F5 /* CJSegmentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentViewController.m; path = CJScrollPage/CJSegmentViewController.m; sourceTree = "<group>"; };
-		81379EE1BA2AC5B87DEF6E44FFABF97D /* ResourceBundle-CJScrollPage-CJScrollPage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CJScrollPage-CJScrollPage-Info.plist"; sourceTree = "<group>"; };
 		814EC7B3D442B34493F79F8CB9ABC1ED /* Pods-CJScrollPage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8FB082DBD3F3CDAD732FECDCCE27C821 /* CJScrollPage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJScrollPage-Info.plist"; sourceTree = "<group>"; };
+		8A779E2F00AE8841DCA9753DCBFE8B47 /* NSString+SegmentModelProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SegmentModelProtocol.m"; path = "CJScrollPage/NSString+SegmentModelProtocol.m"; sourceTree = "<group>"; };
+		8C8B1E400897F62BB659DCD4A6581F72 /* CJMenuBarShowDetailVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJMenuBarShowDetailVC.m; path = CJScrollPage/CJMenuBarShowDetailVC.m; sourceTree = "<group>"; };
+		8D870E598BE61A8ADC36B4CDE28D7DF7 /* CJSegmentRLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentRLButton.h; path = CJScrollPage/CJSegmentRLButton.h; sourceTree = "<group>"; };
 		94034C6839E4941606F5BF1D10A57E23 /* Pods-CJScrollPage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJScrollPage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9C49BAB1C1108F0B1379A8BB08816112 /* CJSegmentRLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentRLButton.h; path = CJScrollPage/CJSegmentRLButton.h; sourceTree = "<group>"; };
-		9CC6F24F85D88C51B6CC5FE75446CF48 /* CJSegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentModelProtocol.h; path = CJScrollPage/CJSegmentModelProtocol.h; sourceTree = "<group>"; };
+		9ADAEF4AF33E4A25A7F4EB77FF10C3DC /* UIView+CJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CJExtension.h"; path = "CJScrollPage/UIView+CJExtension.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3CDF956FDDBFA4EC8BFA5BC1ACD2769 /* Pods-CJScrollPage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Tests-Info.plist"; sourceTree = "<group>"; };
-		A697F7BDF028258E54A8E2D210F43265 /* UIView+CJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CJExtension.m"; path = "CJScrollPage/UIView+CJExtension.m"; sourceTree = "<group>"; };
-		B1D725179FFE937BACA24EF5AA0F5457 /* CJScrollPage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CJScrollPage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B49AE28103035F1BC9B39850D95DF4E2 /* CJScrollPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.release.xcconfig; sourceTree = "<group>"; };
+		B2491F1BCD0E0C01A34E264D76167668 /* CJScrollPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-prefix.pch"; sourceTree = "<group>"; };
+		B3A9A741AEE0813FDB1EE5F2003A9E30 /* CJMenuCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CJMenuCell.xib; path = CJScrollPage/CJMenuCell.xib; sourceTree = "<group>"; };
+		B445CDF30E375FE27B9BEDD49DD4A01E /* UIView+CJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CJExtension.m"; path = "CJScrollPage/UIView+CJExtension.m"; sourceTree = "<group>"; };
 		B513D590709F1E8E48E345BFF6B47179 /* Pods-CJScrollPage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJScrollPage_Tests.modulemap"; sourceTree = "<group>"; };
-		BC374C26FBE58BC05AE5298F92EC6DA3 /* NSString+SegmentModelProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SegmentModelProtocol.m"; path = "CJScrollPage/NSString+SegmentModelProtocol.m"; sourceTree = "<group>"; };
-		BD5DE2EEB6F0175B1675F3EE1CEC7D54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C24C8CC34D3BD511BC3496FE82882719 /* CJSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJSegmentBar.h; path = CJScrollPage/CJSegmentBar.h; sourceTree = "<group>"; };
-		C47D339948CC5D58FE06753B1046B360 /* CJSegmentRLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentRLButton.m; path = CJScrollPage/CJSegmentRLButton.m; sourceTree = "<group>"; };
 		C53F36CB64B39D6FDBE9ED0C9E66485C /* Pods-CJScrollPage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJScrollPage_Example-umbrella.h"; sourceTree = "<group>"; };
+		C89A3682D8505E2A52CCC8136B0E9777 /* NSString+SegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SegmentModelProtocol.h"; path = "CJScrollPage/NSString+SegmentModelProtocol.h"; sourceTree = "<group>"; };
 		CCB443CCD5F0FE350EECEE6F652B2274 /* Pods-CJScrollPage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJScrollPage_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CD2F63661A73A847361E67566D960223 /* CJScrollPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJScrollPage.h; path = CJScrollPage/CJScrollPage.h; sourceTree = "<group>"; };
 		D15853D18F8915EFB6D963F27EA29A6B /* Pods-CJScrollPage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJScrollPage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6953D7C2DC233FA706B004217B96E1E /* NSString+SegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SegmentModelProtocol.h"; path = "CJScrollPage/NSString+SegmentModelProtocol.h"; sourceTree = "<group>"; };
-		DBC57427B7FB0F51C007B4A9FC0C75DF /* CJMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJMenuCell.m; path = CJScrollPage/CJMenuCell.m; sourceTree = "<group>"; };
+		DBCF50EF0C29BE327E7D3799E9D2B0EF /* CJSegmentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJSegmentViewController.m; path = CJScrollPage/CJSegmentViewController.m; sourceTree = "<group>"; };
+		DD6DF9A6FDAA61F737A98F6768A3B6BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DD7CEDB7AE7B2426965B8D360D62E9EC /* Pods-CJScrollPage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJScrollPage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ECF9F1BD39EBEF20077202B24684AE89 /* UIView+CJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CJExtension.h"; path = "CJScrollPage/UIView+CJExtension.h"; sourceTree = "<group>"; };
-		F1C7A061D70F2F3609D3EB0AD1DD475A /* CJScrollPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJScrollPage.debug.xcconfig; sourceTree = "<group>"; };
-		F80D9535814D031065E8B7E7B91ADC07 /* CJScrollPageConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJScrollPageConst.h; path = CJScrollPage/CJScrollPageConst.h; sourceTree = "<group>"; };
-		F8F37E853BD2DCD0AEDA23AA56DA2305 /* CJScrollPage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJScrollPage-prefix.pch"; sourceTree = "<group>"; };
-		FF7871DF2C7A7E28A6ED2116F1D46DD7 /* CJScrollPage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJScrollPage-dummy.m"; sourceTree = "<group>"; };
+		DEE9B6F98ED4BD40EF6852E27D353FBF /* CJScrollPageConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJScrollPageConst.h; path = CJScrollPage/CJScrollPageConst.h; sourceTree = "<group>"; };
+		E9384ED8C1487E632C89F98AFD3DCD16 /* CJMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJMenuCell.h; path = CJScrollPage/CJMenuCell.h; sourceTree = "<group>"; };
+		F106199CB8431D64D61B4B5D332CFF70 /* CJMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJMenuCell.m; path = CJScrollPage/CJMenuCell.m; sourceTree = "<group>"; };
+		F95E392A6BB1C974A3F933BD01309050 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9E005B856E3D8C62A0DE0B1A28C513A /* CJMenuBarShowDetailVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJMenuBarShowDetailVC.h; path = CJScrollPage/CJMenuBarShowDetailVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,15 +140,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64BF62C135ED08604ECA3306F83F1897 /* Frameworks */ = {
+		6544ADBD51CE58D29EA1DF777A1592D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD6105042BF44B4DB726604DD498DAD /* Foundation.framework in Frameworks */,
+				FAF7204EC6F9EAA8E210FEFCC0F45C9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A6F1F17C88386728E25BADE9785E233 /* Frameworks */ = {
+		E885FC8F859D003B91B57198E1192EB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,35 +169,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A9B89EAA41B90BB5FE5D1A29D92A650 /* CJScrollPage */ = {
+		516E5432003E91A0F9EF30CADF6424C9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				185810D861D1352CBEFB2C588180F635 /* CJMenuBarShowDetailVC.h */,
-				37EC716C28535E9BA25E31280E67EFC5 /* CJMenuBarShowDetailVC.m */,
-				67673275BBDA2AE03F29DF27C99A4373 /* CJMenuCell.h */,
-				DBC57427B7FB0F51C007B4A9FC0C75DF /* CJMenuCell.m */,
-				4DFFB4C6130F33F0250436CB55700639 /* CJMenuCell.xib */,
-				CD2F63661A73A847361E67566D960223 /* CJScrollPage.h */,
-				F80D9535814D031065E8B7E7B91ADC07 /* CJScrollPageConst.h */,
-				71EACB019E413BE467B567A341B571C1 /* CJScrollPageConst.m */,
-				C24C8CC34D3BD511BC3496FE82882719 /* CJSegmentBar.h */,
-				66A9A08D79EFF7A1208D6B49689C7787 /* CJSegmentBar.m */,
-				111F02568A6C52600C07718FF225F916 /* CJSegmentBarConfig.h */,
-				2E642108A6ABE51B29A3B7EA80CDF6CD /* CJSegmentBarConfig.m */,
-				9CC6F24F85D88C51B6CC5FE75446CF48 /* CJSegmentModelProtocol.h */,
-				9C49BAB1C1108F0B1379A8BB08816112 /* CJSegmentRLButton.h */,
-				C47D339948CC5D58FE06753B1046B360 /* CJSegmentRLButton.m */,
-				478523B8C524CA0221728C5F1B30587F /* CJSegmentViewController.h */,
-				7C4BAB8B68385E6BBAD7A5494DEB53F5 /* CJSegmentViewController.m */,
-				D6953D7C2DC233FA706B004217B96E1E /* NSString+SegmentModelProtocol.h */,
-				BC374C26FBE58BC05AE5298F92EC6DA3 /* NSString+SegmentModelProtocol.m */,
-				ECF9F1BD39EBEF20077202B24684AE89 /* UIView+CJExtension.h */,
-				A697F7BDF028258E54A8E2D210F43265 /* UIView+CJExtension.m */,
-				BEDBCD8526C4D1FD5B1BDEF2C1523CC4 /* Pod */,
-				BFE6ECD76506B2F57CE78A2900B55961 /* Support Files */,
+				2B2E411F1610781392444EA6922CEA3D /* CJScrollPage.podspec */,
+				DD6DF9A6FDAA61F737A98F6768A3B6BF /* LICENSE */,
+				F95E392A6BB1C974A3F933BD01309050 /* README.md */,
 			);
-			name = CJScrollPage;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -205,6 +185,22 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E888DE443E07172F20920FC1BF61700 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF02000E2FF70B0949D6BCB58027FB /* CJScrollPage.modulemap */,
+				6BDA3264B2624ECA70F91F671F802B2E /* CJScrollPage-dummy.m */,
+				1589360AAD6DDEF19978D0331D3B1137 /* CJScrollPage-Info.plist */,
+				B2491F1BCD0E0C01A34E264D76167668 /* CJScrollPage-prefix.pch */,
+				35BA29FEA4EB8807C5B4E453CD8477A0 /* CJScrollPage-umbrella.h */,
+				268DC95B917EEAB6FA638B1725A1A560 /* CJScrollPage.debug.xcconfig */,
+				507D49FB04F234A26DBB4284E84E21EB /* CJScrollPage.release.xcconfig */,
+				0353C43405AC4E9E91F9A925A6ED6E4F /* ResourceBundle-CJScrollPage-CJScrollPage-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CJScrollPage";
 			sourceTree = "<group>";
 		};
 		60F1FF24405567C7BB3327A04F6D064F /* Pods-CJScrollPage_Example */ = {
@@ -224,30 +220,35 @@
 			path = "Target Support Files/Pods-CJScrollPage_Example";
 			sourceTree = "<group>";
 		};
-		BEDBCD8526C4D1FD5B1BDEF2C1523CC4 /* Pod */ = {
+		A4AD09E7C8A53D7A9A74A4F42E4C3100 /* CJScrollPage */ = {
 			isa = PBXGroup;
 			children = (
-				B1D725179FFE937BACA24EF5AA0F5457 /* CJScrollPage.podspec */,
-				BD5DE2EEB6F0175B1675F3EE1CEC7D54 /* LICENSE */,
-				473E6A6860B72F38042732F36EA8AC25 /* README.md */,
+				F9E005B856E3D8C62A0DE0B1A28C513A /* CJMenuBarShowDetailVC.h */,
+				8C8B1E400897F62BB659DCD4A6581F72 /* CJMenuBarShowDetailVC.m */,
+				E9384ED8C1487E632C89F98AFD3DCD16 /* CJMenuCell.h */,
+				F106199CB8431D64D61B4B5D332CFF70 /* CJMenuCell.m */,
+				B3A9A741AEE0813FDB1EE5F2003A9E30 /* CJMenuCell.xib */,
+				538E92D028CF7662E8C6B14331FF7E7B /* CJScrollPage.h */,
+				DEE9B6F98ED4BD40EF6852E27D353FBF /* CJScrollPageConst.h */,
+				1D4E14225C459733D46167E4FFA790F8 /* CJScrollPageConst.m */,
+				3B555A1D0245F85F30A4A9366B590B41 /* CJSegmentBar.h */,
+				72D459196C8227F580397795E2F64418 /* CJSegmentBar.m */,
+				3C3CCAF804FC6E84AD1434E2750B8AF9 /* CJSegmentBarConfig.h */,
+				0A58BFE5005111BED12D1E415C021900 /* CJSegmentBarConfig.m */,
+				3A78EF86F7EF9E9F3CA0936C954886EF /* CJSegmentModelProtocol.h */,
+				8D870E598BE61A8ADC36B4CDE28D7DF7 /* CJSegmentRLButton.h */,
+				2A4BF12FED5B9C17F9500AE9513B8B58 /* CJSegmentRLButton.m */,
+				2C6DAD78C1000D36A6BE071BCAB60DAD /* CJSegmentViewController.h */,
+				DBCF50EF0C29BE327E7D3799E9D2B0EF /* CJSegmentViewController.m */,
+				C89A3682D8505E2A52CCC8136B0E9777 /* NSString+SegmentModelProtocol.h */,
+				8A779E2F00AE8841DCA9753DCBFE8B47 /* NSString+SegmentModelProtocol.m */,
+				9ADAEF4AF33E4A25A7F4EB77FF10C3DC /* UIView+CJExtension.h */,
+				B445CDF30E375FE27B9BEDD49DD4A01E /* UIView+CJExtension.m */,
+				516E5432003E91A0F9EF30CADF6424C9 /* Pod */,
+				5E888DE443E07172F20920FC1BF61700 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BFE6ECD76506B2F57CE78A2900B55961 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D378ED6C7A62928065644BBABFA1A62 /* CJScrollPage.modulemap */,
-				FF7871DF2C7A7E28A6ED2116F1D46DD7 /* CJScrollPage-dummy.m */,
-				8FB082DBD3F3CDAD732FECDCCE27C821 /* CJScrollPage-Info.plist */,
-				F8F37E853BD2DCD0AEDA23AA56DA2305 /* CJScrollPage-prefix.pch */,
-				09B12940EB06276CEE6218A1C42C631C /* CJScrollPage-umbrella.h */,
-				F1C7A061D70F2F3609D3EB0AD1DD475A /* CJScrollPage.debug.xcconfig */,
-				B49AE28103035F1BC9B39850D95DF4E2 /* CJScrollPage.release.xcconfig */,
-				81379EE1BA2AC5B87DEF6E44FFABF97D /* ResourceBundle-CJScrollPage-CJScrollPage-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CJScrollPage";
+			name = CJScrollPage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BFED2E70507F044A3FAC783F5CC20A1D /* Pods-CJScrollPage_Tests */ = {
@@ -297,7 +298,7 @@
 		E557CDA42C6C449846255AEDBD390A58 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A9B89EAA41B90BB5FE5D1A29D92A650 /* CJScrollPage */,
+				A4AD09E7C8A53D7A9A74A4F42E4C3100 /* CJScrollPage */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -321,22 +322,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6106AEC02F16A44B6122284BF67FD3F /* Headers */ = {
+		744400C01CBB02494578B108260FB02C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9736BF15EE8D2E7A91E1DE034150C3E8 /* CJMenuBarShowDetailVC.h in Headers */,
-				E2E0BDA839077C085388FF675D409D3C /* CJMenuCell.h in Headers */,
-				7B88B3A9FD8898E389A4A76D6078A25A /* CJScrollPage-umbrella.h in Headers */,
-				834415653916E6F63F8C4298EA374A4C /* CJScrollPage.h in Headers */,
-				2117E71A6F76CB2C74A356C8E50F00FD /* CJScrollPageConst.h in Headers */,
-				99F45EC71A9CC3E68FED1DA099F4CE96 /* CJSegmentBar.h in Headers */,
-				A1345D3F99A31DF3461CC43E686CBD21 /* CJSegmentBarConfig.h in Headers */,
-				336B2D493E20209F1586B663DE56C4BE /* CJSegmentModelProtocol.h in Headers */,
-				25F70DAF6B66AE351E3A29E3713469A1 /* CJSegmentRLButton.h in Headers */,
-				D9D26D6A4DD89CDB3C06D52E45508D6D /* CJSegmentViewController.h in Headers */,
-				20ED41A62D21C9B312D6B4BCC259447C /* NSString+SegmentModelProtocol.h in Headers */,
-				9FF6386B88159D60639D0D5FF2F7680A /* UIView+CJExtension.h in Headers */,
+				4D97F008E221E0604D0A8D91A22F671D /* CJMenuBarShowDetailVC.h in Headers */,
+				D0AAD15EE84C8578C60391C58A784931 /* CJMenuCell.h in Headers */,
+				444A3B54F62AEC0C27B5A87A88DE59A4 /* CJScrollPage-umbrella.h in Headers */,
+				7884020FA6BCA1E2753CB0419F360E13 /* CJScrollPage.h in Headers */,
+				18AC02DC02DA0EB45B7BB3D332A481BA /* CJScrollPageConst.h in Headers */,
+				DFA980D195A8BA16CE41A353E77C8ACC /* CJSegmentBar.h in Headers */,
+				829FDB776473AB09E92E2365FBD58A7F /* CJSegmentBarConfig.h in Headers */,
+				FA1CC3F558285CDA33C9966A5285A28F /* CJSegmentModelProtocol.h in Headers */,
+				C851CEBBC683FA97D6837F7421020DCF /* CJSegmentRLButton.h in Headers */,
+				211ECE84D4847DF03D2DC64C39B392DF /* CJSegmentViewController.h in Headers */,
+				91AED95C5F2EE41F76FD3595F250674C /* NSString+SegmentModelProtocol.h in Headers */,
+				0A8C9A470852F6B2331A0B8C77E2C2D9 /* UIView+CJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,11 +346,11 @@
 /* Begin PBXNativeTarget section */
 		7644337FF81633D089C7D91C59798AA5 /* CJScrollPage-CJScrollPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73A6B1B8EBB76538461B9A267A8948FC /* Build configuration list for PBXNativeTarget "CJScrollPage-CJScrollPage" */;
+			buildConfigurationList = 256611513E629C74718EED428CD7C01F /* Build configuration list for PBXNativeTarget "CJScrollPage-CJScrollPage" */;
 			buildPhases = (
-				F34DFFB299A6497A704ED3CB91C8B6FD /* Sources */,
-				8A6F1F17C88386728E25BADE9785E233 /* Frameworks */,
-				76D09042DFF19E39C75506190E061D32 /* Resources */,
+				1F6C5C10A78CA469329067A5BB510554 /* Sources */,
+				E885FC8F859D003B91B57198E1192EB4 /* Frameworks */,
+				D53CAD3CABBA143842015689C2E32ABB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -381,17 +382,17 @@
 		};
 		D08DE13667B62EE4A48B50C2E8DA42BE /* CJScrollPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 220B5A35763FA01574C60CEB68268485 /* Build configuration list for PBXNativeTarget "CJScrollPage" */;
+			buildConfigurationList = 9A48B35BAE0032DFB08D8E9B65E17104 /* Build configuration list for PBXNativeTarget "CJScrollPage" */;
 			buildPhases = (
-				A6106AEC02F16A44B6122284BF67FD3F /* Headers */,
-				4B121091E54C2A88095BAF45D6B6E72C /* Sources */,
-				64BF62C135ED08604ECA3306F83F1897 /* Frameworks */,
-				91ACB542891D653B1E3C7F66D21FFF1F /* Resources */,
+				744400C01CBB02494578B108260FB02C /* Headers */,
+				B3AD4C280A070341095CEE5849BF295A /* Sources */,
+				6544ADBD51CE58D29EA1DF777A1592D4 /* Frameworks */,
+				5561141B864A5800E26920ECBF62DCF4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9017136BB7434F4C1BDA87F5D841D300 /* PBXTargetDependency */,
+				B2E15952D678D89BF277233D30C6CADC /* PBXTargetDependency */,
 			);
 			name = CJScrollPage;
 			productName = CJScrollPage;
@@ -410,7 +411,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				09A7DEF8BE0ED5227BA4CF174D49A7CC /* PBXTargetDependency */,
+				8C568EA88B3105790E8620CED7DAC8CB /* PBXTargetDependency */,
 			);
 			name = "Pods-CJScrollPage_Tests";
 			productName = "Pods-CJScrollPage_Tests";
@@ -448,19 +449,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		76D09042DFF19E39C75506190E061D32 /* Resources */ = {
+		5561141B864A5800E26920ECBF62DCF4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD5B47D755D95AC45347A88E21C5CC47 /* CJMenuCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91ACB542891D653B1E3C7F66D21FFF1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96A63A8EB2E675A0D8CC7BA945FC03BB /* CJScrollPage.bundle in Resources */,
+				0E988007137470FCD622D8E4A5771CF2 /* CJScrollPage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +461,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53CAD3CABBA143842015689C2E32ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D8F1222278F17C9F42B7611224B357 /* CJMenuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,28 +482,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F6C5C10A78CA469329067A5BB510554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		397B35692DC285D51A71BE651C300962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2E9B368781370BD1ADF38EEA93480ED8 /* Pods-CJScrollPage_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B121091E54C2A88095BAF45D6B6E72C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				147894353141AF65484263402C54403D /* CJMenuBarShowDetailVC.m in Sources */,
-				70476841B8E0CAC17E56B7F5D816E14B /* CJMenuCell.m in Sources */,
-				64F9BA4CD3DFB9CB5823184CE8B1B900 /* CJScrollPage-dummy.m in Sources */,
-				855664E9A046CD03EC6489CDB99083D0 /* CJScrollPageConst.m in Sources */,
-				E40A7E16B9384B150E676CF1AB50EE4C /* CJSegmentBar.m in Sources */,
-				26FFB8D56967DD6A5183AC0795E9DE7C /* CJSegmentBarConfig.m in Sources */,
-				77106A89626F6CE95756D138F692F9FD /* CJSegmentRLButton.m in Sources */,
-				9256A4E85C03C350C2941BFA7942ADE0 /* CJSegmentViewController.m in Sources */,
-				9A9FA57B3F7637CF8AAE579006702112 /* NSString+SegmentModelProtocol.m in Sources */,
-				D5CC33DED6BF06664A5E49811559D8CA /* UIView+CJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,37 +505,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F34DFFB299A6497A704ED3CB91C8B6FD /* Sources */ = {
+		B3AD4C280A070341095CEE5849BF295A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B6AF673C30B83185DF7041479ECB5F /* CJMenuBarShowDetailVC.m in Sources */,
+				34AF5828CD5644427F4341830ED3C0E2 /* CJMenuCell.m in Sources */,
+				4FAAF1AC510B5F37A7364BA27331C105 /* CJMenuCell.xib in Sources */,
+				978F95E16B4018AD6891255CCB5E93C8 /* CJScrollPage-dummy.m in Sources */,
+				F95281CF79E91CA33A40D6C322CD433A /* CJScrollPageConst.m in Sources */,
+				9E3B08966F2DA1F247E01FEA67D94F83 /* CJSegmentBar.m in Sources */,
+				68B366C338A42C07378074DC6C5B26FF /* CJSegmentBarConfig.m in Sources */,
+				6E5C7A1019ADC15CE3FEA0BF86CF9E0C /* CJSegmentRLButton.m in Sources */,
+				3C50A29139A70E108A7463ACF2F17FF1 /* CJSegmentViewController.m in Sources */,
+				164EA825B10A2BBB61AC9555604354A1 /* NSString+SegmentModelProtocol.m in Sources */,
+				F4CEB539CC02C6FE09D0D452DCDE4629 /* UIView+CJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09A7DEF8BE0ED5227BA4CF174D49A7CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CJScrollPage_Example";
-			target = C400E10DACA1EC2F80D3ED71394C510F /* Pods-CJScrollPage_Example */;
-			targetProxy = AB3CADE27518918A41C0967441555DCE /* PBXContainerItemProxy */;
-		};
 		5CE890DF7451875252432D5DE8DF2756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CJScrollPage;
 			target = D08DE13667B62EE4A48B50C2E8DA42BE /* CJScrollPage */;
 			targetProxy = 85DD7CC6C4E2DD6D302637F8520AF264 /* PBXContainerItemProxy */;
 		};
-		9017136BB7434F4C1BDA87F5D841D300 /* PBXTargetDependency */ = {
+		8C568EA88B3105790E8620CED7DAC8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CJScrollPage_Example";
+			target = C400E10DACA1EC2F80D3ED71394C510F /* Pods-CJScrollPage_Example */;
+			targetProxy = B4CE600D59EDEA35D93F2067FD56822F /* PBXContainerItemProxy */;
+		};
+		B2E15952D678D89BF277233D30C6CADC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CJScrollPage-CJScrollPage";
 			target = 7644337FF81633D089C7D91C59798AA5 /* CJScrollPage-CJScrollPage */;
-			targetProxy = 2C1B67457BB1A60D5D2B58D701FFA743 /* PBXContainerItemProxy */;
+			targetProxy = 0E147BDC166595560873411982BDF0C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0852280C76275FB5479D73AB8433B014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268DC95B917EEAB6FA638B1725A1A560 /* CJScrollPage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CJScrollPage/CJScrollPage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CJScrollPage/CJScrollPage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CJScrollPage/CJScrollPage.modulemap";
+				PRODUCT_MODULE_NAME = CJScrollPage;
+				PRODUCT_NAME = CJScrollPage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -610,22 +642,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		2DE6A10DD55BEFBA28FBE8EA03D2B42D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49AE28103035F1BC9B39850D95DF4E2 /* CJScrollPage.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CJScrollPage";
-				IBSC_MODULE = CJScrollPage;
-				INFOPLIST_FILE = "Target Support Files/CJScrollPage/ResourceBundle-CJScrollPage-CJScrollPage-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CJScrollPage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		37D3A481A57E1DB1724FA09B66D130DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -693,25 +709,9 @@
 			};
 			name = Release;
 		};
-		5675072979DD2D898AF621832F720BC5 /* Debug */ = {
+		808E42D1A2166A49137A518CA148EBF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1C7A061D70F2F3609D3EB0AD1DD475A /* CJScrollPage.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CJScrollPage";
-				IBSC_MODULE = CJScrollPage;
-				INFOPLIST_FILE = "Target Support Files/CJScrollPage/ResourceBundle-CJScrollPage-CJScrollPage-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CJScrollPage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6CF461880E30D40D30160BF10FE456AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1C7A061D70F2F3609D3EB0AD1DD475A /* CJScrollPage.debug.xcconfig */;
+			baseConfigurationReference = 507D49FB04F234A26DBB4284E84E21EB /* CJScrollPage.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -734,10 +734,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		A9947D4E65F19AA0C914C5A22AD7E65D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -771,34 +772,19 @@
 			};
 			name = Debug;
 		};
-		AB664CF0AA2718DB4D2AA1CB80C5286E /* Release */ = {
+		B941C7E99182E5845D058BD5B29E2AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49AE28103035F1BC9B39850D95DF4E2 /* CJScrollPage.release.xcconfig */;
+			baseConfigurationReference = 507D49FB04F234A26DBB4284E84E21EB /* CJScrollPage.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CJScrollPage/CJScrollPage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CJScrollPage/CJScrollPage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CJScrollPage";
+				IBSC_MODULE = CJScrollPage;
+				INFOPLIST_FILE = "Target Support Files/CJScrollPage/ResourceBundle-CJScrollPage-CJScrollPage-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CJScrollPage/CJScrollPage.modulemap";
-				PRODUCT_MODULE_NAME = CJScrollPage;
 				PRODUCT_NAME = CJScrollPage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -896,14 +882,30 @@
 			};
 			name = Debug;
 		};
+		F6ECD1D8B8DE93A429BA97DC71337AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268DC95B917EEAB6FA638B1725A1A560 /* CJScrollPage.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CJScrollPage";
+				IBSC_MODULE = CJScrollPage;
+				INFOPLIST_FILE = "Target Support Files/CJScrollPage/ResourceBundle-CJScrollPage-CJScrollPage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CJScrollPage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		220B5A35763FA01574C60CEB68268485 /* Build configuration list for PBXNativeTarget "CJScrollPage" */ = {
+		256611513E629C74718EED428CD7C01F /* Build configuration list for PBXNativeTarget "CJScrollPage-CJScrollPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CF461880E30D40D30160BF10FE456AF /* Debug */,
-				AB664CF0AA2718DB4D2AA1CB80C5286E /* Release */,
+				F6ECD1D8B8DE93A429BA97DC71337AEC /* Debug */,
+				B941C7E99182E5845D058BD5B29E2AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -926,11 +928,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73A6B1B8EBB76538461B9A267A8948FC /* Build configuration list for PBXNativeTarget "CJScrollPage-CJScrollPage" */ = {
+		9A48B35BAE0032DFB08D8E9B65E17104 /* Build configuration list for PBXNativeTarget "CJScrollPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5675072979DD2D898AF621832F720BC5 /* Debug */,
-				2DE6A10DD55BEFBA28FBE8EA03D2B42D /* Release */,
+				0852280C76275FB5479D73AB8433B014 /* Debug */,
+				808E42D1A2166A49137A518CA148EBF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

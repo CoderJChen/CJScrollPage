@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJScrollPage'
-  s.version          = '1.0.17'
+  s.version          = '1.0.18'
   s.summary          = '快速灵活的集成类似网易新闻, 头条等带滑块的滚动视图,实现视图联动, 滑块.'
 
 # This description is used to generate tags and improve search results.
@@ -31,12 +31,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CJScrollPage/*'
-#  s.subspec 'ScrollPage' do |ss|
-#      ss.source_files = 'CJScrollPage/CJMenuBarShowDetailVC.{h,m}','CJScrollPage/CJMenuCell.{h,m}','CJScrollPage/CJScrollPageConst.{h,m}','CJScrollPage/CJSegmentBar.{h,m}','CJScrollPage/CJSegmentBarConfig.{h,m}','CJScrollPage/CJSegmentModelProtocol.{h,m}','CJScrollPage/CJSegmentRLButton.{h,m}','CJScrollPage/NSString+SegmentModelProtocol.{h,m}','CJScrollPage/UIView+CJExtension.{h,m}','CJScrollPage/CJSegmentViewController.{h,m}'
-#    end
-   s.resource_bundles = {
-     'CJScrollPage' => ['CJScrollPage/*.{png,xib,storyboard}']
-   }
+#  s.resource_bundles = {
+#     'CJScrollPage' => ['CJScrollPage/*.{png,xib,storyboard}']
+#   }
 
 #   s.public_header_files = 'CJScrollPage/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
