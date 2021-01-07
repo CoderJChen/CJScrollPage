@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJScrollPage'
-  s.version          = '1.0.12'
+  s.version          = '1.0.13'
   s.summary          = '快速灵活的集成类似网易新闻, 头条等带滑块的滚动视图,实现视图联动, 滑块.'
 
 # This description is used to generate tags and improve search results.
